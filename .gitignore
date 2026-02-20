@@ -17,4 +17,4 @@ ios/Runner.xcworkspace/
 # Misc
 .DS_Store
 # Local Netlify folder
-.netlify
+#.netlify
