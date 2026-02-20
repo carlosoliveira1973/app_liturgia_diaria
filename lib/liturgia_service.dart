@@ -12,13 +12,25 @@ class LiturgiaService {
   final String _failoverSantoUrl = "https://api-liturgia-diaria.vercel.app/santo-do-dia";
 
   String get _santoUrl {
-    // Quando estiver rodando no navegador (Netlify)
+    // Web: usa Function do Netlify SOMENTE quando o app estiver hospedado no Netlify.
+    // Em outros hosts (ex.: Cloudflare Pages), a rota /.netlify/functions/* não existe e retorna HTML (404),
+    // causando erro de JSON no parse.
     if (kIsWeb) {
-      return "/.netlify/functions/santo-do-dia";
+      final host = Uri.base.host.toLowerCase();
+      final isNetlify = host.contains('netlify') ||
+          host.endsWith('netlify.app') ||
+          host.endsWith('netlify.live');
+
+      if (isNetlify) {
+        return "/.netlify/functions/santo-do-dia";
+      }
+
+      // Fora do Netlify (ex.: Cloudflare Pages), chama direto a API HTTPS
+      return _failoverSantoUrl;
     }
 
-    // Quando for Android / iOS
-    return "https://api-liturgia-diaria.vercel.app/santo-do-dia";
+    // Android / iOS
+    return _failoverSantoUrl;
   }
 
   Future<LiturgiaDiaria> fetchLiturgia(DateTime date) async {
