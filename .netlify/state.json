@@ -1,0 +1,21 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Cerquilho",
+			"country": {
+				"code": "BR",
+				"name": "Brazil"
+			},
+			"subdivision": {
+				"code": "SP",
+				"name": "São Paulo"
+			},
+			"timezone": "America/Sao_Paulo",
+			"latitude": -23.1911,
+			"longitude": -47.7734,
+			"postalCode": "18520"
+		},
+		"timestamp": 1771548577131
+	},
+	"siteId": "6132a713-b4fe-4bcf-a747-02858dbbd409"
+}

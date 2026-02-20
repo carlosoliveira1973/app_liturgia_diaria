@@ -1,0 +1,41 @@
+functionsDirectory = "D:\\flutter\\app_liturgia_diaria_v1\\netlify\\functions"
+functionsDirectoryOrigin = "config-v1"
+plugins = []
+headers = []
+
+[build]
+publish = "D:\\flutter\\app_liturgia_diaria_v1\\build\\web"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "flutter build web --release"
+functions = "D:\\flutter\\app_liturgia_diaria_v1\\netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[functions]
+
+[functions."*"]
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
