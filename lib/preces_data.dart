@@ -354,6 +354,314 @@ class PrecesData {
       ],
     ),
 
+    "2026-02-18": PrecesDia(
+      falaInicial:
+      "Irmãos, ao darmos início ao tempo santo da Quaresma, oremos para que todos os homens se convertam e tomem parte na renovação pascal, dizendo:",
+      respostaInicial: "Pela vossa misericórdia, ouvi-nos, Senhor.",
+      preces: [
+        Prece(
+          intencao:
+          "Por todos os fiéis da santa Igreja, para que, neste tempo favorável da Quaresma, se reconciliem uns com os outros e com Deus, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelos fiéis que recebem as cinzas, para que, ao recordarem a fragilidade do ser humano, abram o coração a Deus, fonte de vida, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Por aqueles que dizem ser discípulos de Cristo, para que se convertam e acreditem no Evangelho e, em segredo, deem esmola, rezem e jejuem, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelos doentes incuráveis e que mais sofrem, pelos pobres, pelos pecadores e pelos famintos, para que encontrem quem os socorra e alivie, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelos fiéis aqui presentes e pelos ausentes, para que todos recebam a graça de seguir a Cristo, no caminho feliz da renovação pascal, oremos.",
+        ),
+      ],
+    ),
+
+    "2026-02-19": PrecesDia(
+      falaInicial:
+      "Irmãs e irmãos, o caminho dos justos leva à vida, e o dos pecadores à perdição. Oremos ao Pai do céu, dizendo:",
+      respostaInicial: "Senhor, tende piedade de nós.",
+      preces: [
+        Prece(
+          intencao:
+          "Por toda a Igreja de Deus santa e católica, para que o Tempo da Quaresma a faça reviver o mistério redentor da Cruz de Cristo, oremos ao nosso Pai.",
+        ),
+        Prece(
+          intencao:
+          "Pelas organizações mundiais de entreajuda, para que, em conjunto com outras forças da sociedade, socorram os seres humanos mais vulneráveis, oremos ao nosso Pai.",
+        ),
+        Prece(
+          intencao:
+          "Por todos aqueles a quem Deus propõe a vida, para que não se deixem seduzir por falsos deuses nem sigam pelo caminho dos pecadores, oremos ao nosso Pai.",
+        ),
+        Prece(
+          intencao:
+          "Pelos cristãos que vivem e sofrem em todo o mundo, para que a obediência aos mandamentos do Senhor seja o caminho que os conduza à vida eterna, oremos ao nosso Pai.",
+        ),
+        Prece(
+          intencao:
+          "Por todos nós que iniciámos esta Quaresma, para que, à maneira da árvore plantada à beira das águas, dêmos frutos de santidade e amor ao próximo, oremos ao nosso Pai.",
+        ),
+      ],
+    ),
+
+    "2026-02-20": PrecesDia(
+      falaInicial:
+      "Irmãs e irmãos, o único jejum que agrada a Deus é o que leva a destruir todos os jugos e dominações. Oremos, dizendo:",
+      respostaInicial: "Deus de misericórdia, ouvi-nos.",
+      preces: [
+        Prece(
+          intencao:
+          "Pelo papa, pelos bispos e pelos presbíteros, para que, ao falarem do jejum aos homens de hoje, saibam usar a linguagem forte dos profetas, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelos responsáveis das nações e dos governos, para que tudo façam para eliminar o grande fosso que ainda divide a humanidade em nossos dias, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Por todos aqueles que creem em Deus e O invocam, para que reconheçam como jejum agradável ao Senhor repartir o pão, destruir os jugos, dar casa aos pobres, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelos mais doentes, e pelos que estão sós e esquecidos, para que encontrem, nas paróquias onde vivem, respostas concretas de solidariedade, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Por todos nós a quem o Esposo vai ser tirado, para que o jejum da sua ausência prolongada nos dê vontade de O procurar onde Ele se encontra, oremos.",
+        ),
+      ],
+    ),
+
+    "2026-02-21": PrecesDia(
+      falaInicial:
+      "Irmãs e irmãos, o único jejum que agrada a Deus é o que leva a destruir todos os jugos e dominações. Oremos, dizendo:",
+      respostaInicial: "Deus de misericórdia, ouvi-nos.",
+      preces: [
+        Prece(
+          intencao:
+          "Pelo papa, pelos bispos e pelos presbíteros, para que, ao falarem do jejum aos homens de hoje, saibam usar a linguagem forte dos profetas, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelos responsáveis das nações e dos governos, para que tudo façam para eliminar o grande fosso que ainda divide a humanidade em nossos dias, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Por todos aqueles que creem em Deus e O invocam, para que reconheçam como jejum agradável ao Senhor repartir o pão, destruir os jugos, dar casa aos pobres, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelos mais doentes, e pelos que estão sós e esquecidos, para que encontrem, nas paróquias onde vivem, respostas concretas de solidariedade, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Por todos nós a quem o Esposo vai ser tirado, para que o jejum da sua ausência prolongada nos dê vontade de O procurar onde Ele se encontra, oremos.",
+        ),
+      ],
+    ),
+
+    "2026-02-22": PrecesDia(
+      falaInicial:
+      "Irmãos, o Senhor Jesus não veio chamar os justos, mas os pecadores, para que se arrependam. Por isso Lhe pedimos:",
+      respostaInicial: "Senhor, socorrei-nos e salvai-nos.",
+      preces: [
+        Prece(
+          intencao:
+          "Para que as paróquias cristãs, em todo o mundo, saibam acolher, com alegria, os pecadores e tornar fácil o seu encontro com o perdão, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Para que a misericórdia infinita do Senhor inspire os responsáveis das nações a eliminar os gestos de ameaça mútua, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Para que os maridos, as esposas e os filhos não se agridam com palavras ofensivas, mas aprendam a desculpar-se mutuamente, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Para que, em vez de gestos de opressão, saibamos antes perdoar a quem nos ofende e repartir o pão com quem tem fome, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Para que os membros da nossa comunidade não vivam o domingo de qualquer modo, mas o consagrem à glória do Senhor, oremos.",
+        ),
+      ],
+    ),
+
+    "2026-02-23": PrecesDia(
+      falaInicial:
+      "Irmãs e irmãos, porque Deus é santo, todos nós somos chamados à santidade. Peçamos-Lhe que nos escute, dizendo:",
+      respostaInicial: "Fazei-nos santos, Senhor, porque Vós sois santo.",
+      preces: [
+        Prece(
+          intencao:
+          "Nós Vos pedimos, Pai celeste: renovai cada vez mais a vossa Igreja, com as palavras que nos dissestes por Moisés e com aquelas que nos trouxe o vosso Filho.",
+        ),
+        Prece(
+          intencao:
+          "Nós Vos pedimos, Deus eterno: convertei os homens públicos à vossa Lei, ensinando-os a dizer sempre a verdade e a respeitar o dom da vida humana.",
+        ),
+        Prece(
+          intencao:
+          "Nós Vos pedimos, Criador dos céus e da terra: fazei que os homens se olhem sem inveja, levai-os a dar do seu pão aos que o não têm e a visitar quem está doente ou na prisão.",
+        ),
+        Prece(
+          intencao:
+          "Nós Vos pedimos, Deus de toda a fortaleza: defendei os mais fracos das mãos dos fortes, dai esperança aos que a perderam e andam tristes e amparai os que estão prestes a cair.",
+        ),
+        Prece(
+          intencao:
+          "Nós Vos pedimos, Senhor Deus de todos nós: mudai-nos o coração e as atitudes, ensinai-nos a servir-Vos nos mais pobres e dai a vida eterna aos que partiram.",
+        ),
+      ],
+    ),
+
+    "2026-02-24": PrecesDia(
+      falaInicial:
+      "Irmãs e irmãos, a palavra de Deus e a oração estão no centro da liturgia da Quaresma. Peçamos ao Pai que nos ensine a escutar e a rezar, dizendo:",
+      respostaInicial: "Ouvi-nos, Senhor.",
+      preces: [
+        Prece(
+          intencao:
+          "Nós Vos pedimos, Pai celeste: renovai cada vez mais a vossa Igreja, com as palavras que nos dissestes por Moisés e com aquelas que nos trouxe o vosso Filho.",
+        ),
+        Prece(
+          intencao:
+          "Nós Vos pedimos, Deus eterno: convertei os homens públicos à vossa Lei, ensinando-os a dizer sempre a verdade e a respeitar o dom da vida humana.",
+        ),
+        Prece(
+          intencao:
+          "Nós Vos pedimos, Criador dos céus e da terra: fazei que os homens se olhem sem inveja, levai-os a dar do seu pão aos que o não têm e a visitar quem está doente ou na prisão.",
+        ),
+        Prece(
+          intencao:
+          "Nós Vos pedimos, Deus de toda a fortaleza: defendei os mais fracos das mãos dos fortes, dai esperança aos que a perderam e andam tristes e amparai os que estão prestes a cair.",
+        ),
+        Prece(
+          intencao:
+          "Nós Vos pedimos, Senhor Deus de todos nós: mudai-nos o coração e as atitudes, ensinai-nos a servir-Vos nos mais pobres e dai a vida eterna aos que partiram.",
+        ),
+      ],
+    ),
+
+    "2026-02-25": PrecesDia(
+      falaInicial:
+      "Irmãs e irmãos, a palavra de Deus e a oração estão no centro da liturgia da Quaresma. Peçamos ao Pai que nos ensine a escutar e a rezar, dizendo:",
+      respostaInicial: "Ouvi-nos, Senhor.",
+      preces: [
+        Prece(
+          intencao:
+          "Pelas Igrejas particulares do nosso País, para que ensinem os fiéis a escutar a Deus e a orar com as palavras de Jesus, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelos homens e mulheres do mundo inteiro, para que entendam que a oração deve ser sóbria, porque Deus bem sabe do que precisam, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelos que escutam e acolhem a palavra, para que ela não volte para Deus, sem ter produzido o seu efeito, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Por todos os que andam tristes e sem forças, para que clamem a Deus, que os há de ouvir e livrar de todas as angústias, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Por todos os habitantes desta paróquia, para que tenham sede de Deus e O procurem, no silêncio, na oração e na caridade, oremos.",
+        ),
+      ],
+    ),
+
+    "2026-02-26": PrecesDia(
+      falaInicial:
+      "Irmãos, a Quaresma é um tempo muito próprio para a penitência e a conversão. Peçamos essa graça a Deus Pai, dizendo:",
+      respostaInicial: "Mostrai-nos, Senhor, o vosso rosto.",
+      preces: [
+        Prece(
+          intencao:
+          "Pela Igreja de cada tempo e nação, para que convide as multidões a converterem-se e a acreditarem no Filho de Deus, que as vem salvar, oremos a Deus Pai.",
+        ),
+        Prece(
+          intencao:
+          "Pelos habitantes das grandes cidades no mundo inteiro, para que escutem os profetas que lhes falam, e se afastem dos maus caminhos e das violências, oremos a Deus Pai.",
+        ),
+        Prece(
+          intencao:
+          "Pelos homens que pedem sinais extraordinários, para que, superando as tentações do ateísmo, procurem na Bíblia as respostas às suas dúvidas, oremos a Deus Pai.",
+        ),
+        Prece(
+          intencao:
+          "Pelos cristãos que não gozam de liberdade religiosa, para que sintam a ajuda e o apoio de que precisam, nas instituições que lutam pelos direitos humanos, oremos a Deus Pai.",
+        ),
+        Prece(
+          intencao:
+          "Por todos os cristãos desta nossa comunidade, para que, durante estes dias santos da Quaresma, escutem a palavra, falem com Deus e mudem de vida, oremos a Deus Pai.",
+        ),
+      ],
+    ),
+
+    "2026-02-27": PrecesDia(
+      falaInicial:
+      "Irmãs e irmãos, nós sabemos que a Igreja recebeu de Jesus uma promessa: se pedir e procurar o que precisa, encontrá-lo-á. Voltados para Deus, peçamos-Lhe:",
+      respostaInicial: "Dai-nos, Senhor, o que nos falta.",
+      preces: [
+        Prece(
+          intencao:
+          "Para que a Igreja do martírio e do silêncio, tomada de angústia mortal perante os perigos, encontre em Deus refúgio e proteção, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Para que os povos oprimidos por tiranos recorram a Deus, Senhor dos poderosos, e a sua mão lhes dê de novo a liberdade, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Para que os jovens peçam e recebam o que buscam, procurem e encontrem o Amigo de que precisam, e tenham a alegria de ver Jesus surgir à porta, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Para que as pessoas abandonadas a si próprias, à maneira do que sucedeu à rainha Ester, gritem por Deus, e Ele venha em seu auxílio, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Para que todos nós aqui presentes, neste dia, apreciemos sempre o que é reto e vivamos segundo a vontade do Senhor, oremos.",
+        ),
+      ],
+    ),
+
+    "2026-02-28": PrecesDia(
+      falaInicial:
+      "Irmãs e irmãos, a Quaresma é subida para a Páscoa, e as leituras indicam-nos o caminho. Oremos a Jesus, dizendo:",
+      respostaInicial: "Cristo, ouvi-nos. Cristo, atendei-nos.",
+      preces: [
+        Prece(
+          intencao:
+          "Pelos bispos, presbíteros e diáconos e pelos fiéis que ajudam outros a reconhecer que os caminhos do Senhor são todos justos, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelos homens públicos que respeitam os cidadãos, pelos juízes que julgam com justiça e por cada pessoa que reconhece as suas faltas, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelos cristãos que se amam mutuamente, pelos pecadores que renunciam às suas faltas e pelos penitentes que se querem renovar, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Pelas crianças roubadas a seus pais, pelos pais que, aflitos, as procuram e por aqueles que os ajudam a encontrá-las, oremos.",
+        ),
+        Prece(
+          intencao:
+          "Por todos os membros da nossa assembleia, particularmente pelos que se impressionaram com as palavras sobre o perdão mútuo, oremos.",
+        ),
+      ],
+    ),
+
   };
 
   /// Retorna as preces cadastradas exatamente para a data selecionada.

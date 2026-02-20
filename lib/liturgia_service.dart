@@ -9,7 +9,7 @@ class LiturgiaService {
   final String _baseUrl = "https://liturgia.up.railway.app/v2";
 
   // API de Failover - Específica para o Santo do Dia (Canção Nova/Vercel)
-  final String _failoverSantoUrl = "https://api-liturgia-diaria.vercel.app/santo-do-dia";
+  //final String _failoverSantoUrl = "https://api-liturgia-diaria.vercel.app/santo-do-dia";
 
   String get _santoUrl {
     // Quando estiver rodando no navegador (Netlify)
