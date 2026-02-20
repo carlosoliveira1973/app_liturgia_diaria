@@ -24,7 +24,7 @@ class LiturgiaService {
       }
 
       // Fora do Netlify (ex.: Cloudflare Pages), chama direto a API HTTPS
-      return _failoverSantoUrl;
+      return "https://liturgia-proxy.carlos-aoliveira.workers.dev/santo-do-dia";
     }
 
     // Quando for Android / iOS
