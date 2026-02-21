@@ -19,7 +19,7 @@ class DynamicSplash extends StatefulWidget {
     required this.next,
     this.onThemeSeed,
     this.logoAsset = 'assets/icon/app_icon_foreground.png',
-    this.title = 'Liturgia Diária Completa',
+    this.title = 'Liturgia Diária — A Missa na palma da sua mão',
   });
 
   @override
@@ -145,10 +145,11 @@ class _DynamicSplashState extends State<DynamicSplash> {
                   const SizedBox(height: 18),
                   Text(
                     widget.title,
+                    textAlign: TextAlign.center,
                     style: TextStyle(
                       color: _fg,
-                      fontSize: 18,
-                      fontWeight: FontWeight.w700,
+                      fontSize: 14,
+                      fontWeight: FontWeight.w500,
                     ),
                   ),
                   const SizedBox(height: 18),

@@ -646,6 +646,8 @@ class _HomePageState extends State<HomePage> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const SizedBox(height: 6),
+
+        /// ===== TÍTULO =====
         const Align(
           alignment: Alignment.centerLeft,
           child: Text(
@@ -657,16 +659,37 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ),
-        const SizedBox(height: 8),
+
+        /// ===== TEXTO INFORMATIVO =====
+        const SizedBox(height: 4),
+
+        if (precesDia != null)
+          const Align(
+            alignment: Alignment.centerLeft,
+            child: Text(
+              "As preces abaixo são uma sugestão e podem ser adaptadas conforme a preparação da comunidade ou da equipe de liturgia.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(
+                fontFamily: 'Georgia',
+                fontSize: 11,
+                fontStyle: FontStyle.italic,
+                color: Colors.black54,
+                height: 1.4,
+              ),
+            ),
+          ),
+
+
+        const SizedBox(height: 10),
 
         if (precesDia == null)
-          Align(
+          const Align(
             alignment: Alignment.centerLeft,
             child: Text(
               "As Preces da Assembleia são preparadas livremente pela comunidade ou equipe de liturgia, conforme a celebração.",
               style: TextStyle(
                 fontFamily: 'Georgia',
-                fontSize: _baseFontSize,
+                fontSize: 13,
                 fontStyle: FontStyle.italic,
                 color: Colors.black54,
                 height: 1.5,
@@ -759,7 +782,7 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 10),
           ],
 
-          /// ===== FALA FINAL DO PADRE + AMÉM (NOVO) =====
+          /// ===== FALA FINAL =====
           if (precesDia.falaFinal.isNotEmpty) ...[
             const SizedBox(height: 12),
 
