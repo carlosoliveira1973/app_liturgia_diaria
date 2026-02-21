@@ -658,6 +658,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         const SizedBox(height: 8),
+
         if (precesDia == null)
           Align(
             alignment: Alignment.centerLeft,
@@ -673,6 +674,7 @@ class _HomePageState extends State<HomePage> {
             ),
           )
         else ...[
+          /// ===== FALA INICIAL =====
           Align(
             alignment: Alignment.centerLeft,
             child: RichText(
@@ -705,7 +707,10 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
+
           const SizedBox(height: 10),
+
+          /// ===== RESPOSTA INICIAL =====
           Align(
             alignment: Alignment.centerLeft,
             child: RichText(
@@ -734,7 +739,10 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
+
           const SizedBox(height: 14),
+
+          /// ===== INTENÇÕES =====
           for (int i = 0; i < precesDia.preces.length; i++) ...[
             Align(
               alignment: Alignment.centerLeft,
@@ -750,7 +758,75 @@ class _HomePageState extends State<HomePage> {
             ),
             const SizedBox(height: 10),
           ],
+
+          /// ===== FALA FINAL DO PADRE + AMÉM (NOVO) =====
+          if (precesDia.falaFinal.isNotEmpty) ...[
+            const SizedBox(height: 12),
+
+            Align(
+              alignment: Alignment.centerLeft,
+              child: RichText(
+                textAlign: TextAlign.justify,
+                text: TextSpan(
+                  style: TextStyle(
+                    fontFamily: 'Georgia',
+                    fontSize: _baseFontSize,
+                    height: 1.5,
+                    color: Colors.black87,
+                  ),
+                  children: [
+                    TextSpan(
+                      text: "Pe: ",
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        color: Colors.grey.shade700,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                    TextSpan(
+                      text: precesDia.falaFinal,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        color: Colors.grey.shade700,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+
+            const SizedBox(height: 10),
+
+            Align(
+              alignment: Alignment.centerLeft,
+              child: RichText(
+                text: TextSpan(
+                  style: TextStyle(
+                    fontFamily: 'Georgia',
+                    fontSize: _baseFontSize,
+                    height: 1.5,
+                  ),
+                  children: [
+                    TextSpan(
+                      text: "T: ",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: colorLiturgico,
+                      ),
+                    ),
+                    const TextSpan(
+                      text: "Amém.",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
         ],
+
         const SizedBox(height: 12),
       ],
     );
