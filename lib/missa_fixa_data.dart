@@ -13,7 +13,7 @@ ou
 **T: Bendito seja Deus, que nos reuniu no amor de Cristo!**
 ou 
 **Pe:** O Senhor esteja convosco.
-**T: Ela está no meio de nós!**
+**T: Ele está no meio de nós!**
 """;
 
   static const String atoPenitencial = """
