@@ -7842,7 +7842,7 @@ class PrecesData {
     ),
 
     "2026-03-08": PrecesDia(
-      falaInicial: "Quando não se faz o primeiro escrutínio dos catecúmenos Irmãos e irmãs em Cristo: Com o ardor da nossa sede de Deus, peçamos a Jesus Cristo que dê à sua Igreja e ao mundo inteiro a água viva que jorra para a eternidade, dizendo (ou: cantando), confiadamente:",
+      falaInicial: "Irmãos e irmãs em Cristo: Com o ardor da nossa sede de Deus, peçamos a Jesus Cristo que dê à sua Igreja e ao mundo inteiro a água viva que jorra para a eternidade, dizendo (ou: cantando), confiadamente:",
       respostaInicial: "Cristo, ouvi-nos. Cristo, atendei-nos.",
       preces: [
         Prece(
@@ -7865,7 +7865,7 @@ class PrecesData {
     ),
 
     "2026-03-15": PrecesDia(
-      falaInicial: "Quando não se faz o segundo escrutínio dos catecúmenos Irmãs e irmãos em Cristo: Nós sabemos que a luz do mundo é Jesus Cristo, que deu vista ao cego de nascença e quer iluminar todos os homens. Peçamos a sua luz para a Igreja, para o mundo e para cada um de nós, dizendo (ou: cantando):",
+      falaInicial: "Irmãs e irmãos em Cristo: Nós sabemos que a luz do mundo é Jesus Cristo, que deu vista ao cego de nascença e quer iluminar todos os homens. Peçamos a sua luz para a Igreja, para o mundo e para cada um de nós, dizendo (ou: cantando):",
       respostaInicial: "Renovai-nos, Senhor, no seu Espírito.",
       preces: [
         Prece(
@@ -7888,7 +7888,7 @@ class PrecesData {
     ),
 
     "2026-03-22": PrecesDia(
-      falaInicial: "Quando não se faz o terceiro escrutínio dos catecúmenos Caríssimos irmãos e irmãs: Por Jesus Cristo, vencedor da morte, oremos a Deus, que é a vida do mundo e ressuscita os mortos pela força do Espírito, dizendo (ou: cantando), com fé:",
+      falaInicial: "Caríssimos irmãos e irmãs: Por Jesus Cristo, vencedor da morte, oremos a Deus, que é a vida do mundo e ressuscita os mortos pela força do Espírito, dizendo (ou: cantando), com fé:",
       respostaInicial: "Christe, eléison.",
       preces: [
         Prece(
