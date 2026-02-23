@@ -7635,8 +7635,8 @@ class PrecesData {
     ),
 
     "2026-01-04": PrecesDia(
-      falaInicial: "Caríssimos cristãos: Neste dia, em que Deus quis revelar a todos os povos do Oriente e do Ocidente a luz do Céu que o nosso Filho trouxe à terra, oremos, dizendo (ou: cantando):",
-      respostaInicial: "Iluminaii, Senhor, a terra inteira.",
+      falaInicial: "Caríssimos cristãos: Neste dia, em que Deus quis revelar a todos os povos do Oriente e do Ocidente a luz do Céu que o seu Filho trouxe à terra, oremos, dizendo (ou: cantando):",
+      respostaInicial: "Iluminai, Senhor, a terra inteira.",
       preces: [
         Prece(
           intencao: "Pelas Igrejas mais antigas e pelas mais recentes, para que saibam acolher quem busca a Deus e O mostrem no Menino, luz dos homens, oremos.",
@@ -7645,16 +7645,16 @@ class PrecesData {
           intencao: "Pelos presbíteros, missionários e catequistas, para que saibam dizer aos que não crêem, que a verdadeira luz do mundo é Jesus Cristo, oremos.",
         ),
         Prece(
-          intencao: "Pelos homens da cultura e da ciência, para que busquem a Deus nos sinais da criação e da história e O encontrem, como os Magos, seguindo a nossa estrela, oremos.",
+          intencao: "Pelos homens da cultura e da ciência, para que busquem a Deus nos sinais da criação e da história e O encontrem, como os Magos, seguindo a sua estrela, oremos.",
         ),
         Prece(
-          intencao: "Pelos aflitos que perderam a esperança e por aqueles que ainda buscam quem os guie, para que o Filho de Maria seja a nossa luz, oremos.",
+          intencao: "Pelos aflitos que perderam a esperança e por aqueles que ainda buscam quem os guie, para que o Filho de Maria seja a sua luz, oremos.",
         ),
         Prece(
           intencao: "Por todos os baptizados desta Paróquia, para que venham a contemplar eternamente o Deus Menino que adoraram sobre a terra, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, que chamastes os pagãos à luz da fé, guiai os que nas trevas Vos procuram como os Magos vindos do Oriente, para que possam contemplar o nosso rosto no esplendor da glória celeste. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, nosso Deus, que chamastes os pagãos à luz da fé, guiai os que nas trevas Vos procuram como os Magos vindos do Oriente, para que possam contemplar o seu rosto no esplendor da glória celeste. Por Cristo Senhor nosso.",
     ),
 
     "2026-01-11": PrecesDia(
@@ -7662,13 +7662,13 @@ class PrecesData {
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
-          intencao: "Pela santa Igreja do Oriente e do Ocidente, pelos ministros do Evangelho e do Baptismo pelas crianças, por nossos pais e nossos padrinhos, oremos.",
+          intencao: "Pela santa Igreja do Oriente e do Ocidente, pelos ministros do Evangelho e do Baptismo pelas crianças, por seus pais e seus padrinhos, oremos.",
         ),
         Prece(
           intencao: "Pelos catecúmenos jovens e adultos, pelos eleitos, que são o enlevo do Senhor e pelos grupos cristãos que os acompanham, oremos.",
         ),
         Prece(
-          intencao: "Pelos que são baptizados neste dia ou confirmados pelo Espírito, o Dom de Deus, e pelos que procuram ser fiéis ao nosso Baptismo, oremos.",
+          intencao: "Pelos que são baptizados neste dia ou confirmados pelo Espírito, o Dom de Deus, e pelos que procuram ser fiéis ao seu Baptismo, oremos.",
         ),
         Prece(
           intencao: "Pelas famílias cristãs, pequenas Igrejas em cada lar, pelos que buscam a Deus com rectidão e por aqueles que se sentem oprimidos pelo Demónio, oremos.",
@@ -7677,11 +7677,11 @@ class PrecesData {
           intencao: "Por todos nós que recebemos o Baptismo, pelos que estão em graça e paz com Deus e por aqueles que entre nós vivem nas trevas, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, reavivai em nós, pelo Espírito Santo, o dom e a alegria do Baptismo, para que Vos chamemos nosso Pai e nos sintamos, de verdade, nossos filhos. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, nosso Deus, reavivai em nós, pelo Espírito Santo, o dom e a alegria do Baptismo, para que Vos chamemos nosso Pai e nos sintamos, de verdade, seus filhos. Por Cristo Senhor nosso.",
     ),
 
     "2026-01-18": PrecesDia(
-      falaInicial: "Irmãs e irmãos em Cristo: Oremos a Deus Pai todo-poderoso, que nos enviou o nosso muito amado Filho e nos dá a graça de participar nestes santos mistérios, e peçamos (ou: e cantemos), com fé:",
+      falaInicial: "Irmãs e irmãos em Cristo: Oremos a Deus Pai todo-poderoso, que nos enviou o seu muito amado Filho e nos dá a graça de participar nestes santos mistérios, e peçamos (ou: e cantemos), com fé:",
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
@@ -7697,10 +7697,10 @@ class PrecesData {
           intencao: "Para que os homens e mulheres do nosso tempo descubram em Cristo a luz das nações e edifiquem um mundo mais justo e mais fraterno, oremos.",
         ),
         Prece(
-          intencao: "Para que esta assembleia e a nossa Paróquia perseverem na fé e na piedade, e os nossos membros cresçam no respeito mútuo, oremos.",
+          intencao: "Para que esta assembleia e a nossa Paróquia perseverem na fé e na piedade, e os seus membros cresçam no respeito mútuo, oremos.",
         ),
       ],
-      falaFinal: "Deus todo-poderoso e eterno, que por nosso Filho Jesus Cristo fizestes chegar a salvação até aos confins da terra, olhai com bondade o povo que Vos suplica e conduzi-o à glória do nosso reino. Por Cristo Senhor nosso.",
+      falaFinal: "Deus todo-poderoso e eterno, que por seu Filho Jesus Cristo fizestes chegar a salvação até aos confins da terra, olhai com bondade o povo que Vos suplica e conduzi-o à glória do seu reino. Por Cristo Senhor nosso.",
     ),
 
     "2026-01-25": PrecesDia(
@@ -7708,16 +7708,16 @@ class PrecesData {
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
-          intencao: "Pela nossa Diocese e nossas comunidades, para que nelas se anuncie aos homens do nosso tempo o apelo urgente da conversão ao Evangelho, oremos.",
+          intencao: "Pela nossa Diocese e suas comunidades, para que nelas se anuncie aos homens do nosso tempo o apelo urgente da conversão ao Evangelho, oremos.",
         ),
         Prece(
           intencao: "Pelos candidatos ao diaconado e ao presbiterado, para que escutem a voz de Jesus Cristo e recebam a graça de virem a ser pescadores de homens, oremos.",
         ),
         Prece(
-          intencao: "Por todos os que sofrem e desanimam em toda a terra, para que o Senhor venha em nosso auxílio e os faça reencontrar a esperança, oremos.",
+          intencao: "Por todos os que sofrem e desanimam em toda a terra, para que o Senhor venha em seu auxílio e os faça reencontrar a esperança, oremos.",
         ),
         Prece(
-          intencao: "Pelos cristãos leigos da nossa Diocese, para que saibam abrir-se ao diálogo fraterno com todas as pessoas que vivem a nosso lado, oremos.",
+          intencao: "Pelos cristãos leigos da nossa Diocese, para que saibam abrir-se ao diálogo fraterno com todas as pessoas que vivem a seu lado, oremos.",
         ),
         Prece(
           intencao: "Pela nossa assembleia dominical, para que o Espírito de Deus dirija a nossa vida e nos faça produzir abundantes frutos de boas obras, oremos.",
@@ -7746,15 +7746,15 @@ class PrecesData {
           intencao: "Para que a nossa comunidade (paroquial) tenha a coragem de tomar a sério e de viver o que ouviu hoje da boca de Jesus, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso refúgio e fortaleza, escutai as orações da nossa Igreja e fazei-nos acolher o que nada vale aos olhos do mundo, para permanecermos fiéis ao espírito das Bem-aventuranças. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, nosso refúgio e fortaleza, escutai as orações da sua Igreja e fazei-nos acolher o que nada vale aos olhos do mundo, para permanecermos fiéis ao espírito das Bem-aventuranças. Por Cristo Senhor nosso.",
     ),
 
     "2026-02-08": PrecesDia(
       falaInicial: "Caríssimos fiéis: Oremos por todos os homens e mulheres do mundo, para que recebam a ajuda da nossa prece e da nossa caridade, dizendo (ou: cantando):",
-      respostaInicial: "Ouvi, Senhor, a oração do nosso povo.",
+      respostaInicial: "Escutai, Senhor, a oração do seu povo.",
       preces: [
         Prece(
-          intencao: "Pela Igreja santa e católica, pelas Igrejas ortodoxas orientais e por todos os nossos ministros e fiéis, oremos.",
+          intencao: "Pela Igreja santa e católica, pelas Igrejas ortodoxas orientais e por todos os seus ministros e fiéis, oremos.",
         ),
         Prece(
           intencao: "Pelos que repartem o pão com os famintos, dão pousada aos pobres sem abrigo e levam roupa aos que não têm que vestir, oremos.",
@@ -7773,7 +7773,7 @@ class PrecesData {
     ),
 
     "2026-02-15": PrecesDia(
-      falaInicial: "Irmãos e irmãs em Cristo: Oremos a Deus Pai todo-poderoso, para que nos ajude com a nossa graça a pôr em prática as palavras de Jesus, suplicando (ou: cantando), confiadamente:",
+      falaInicial: "Irmãos e irmãs em Cristo: Oremos a Deus Pai todo-poderoso, para que nos ajude com a sua graça a pôr em prática as palavras de Jesus, suplicando (ou: cantando), confiadamente:",
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
@@ -7789,10 +7789,10 @@ class PrecesData {
           intencao: "Pelas mães solteiras e pelos lares separados, para que sintam, da parte dos cristãos, o acolhimento e a ajuda de que precisam, oremos.",
         ),
         Prece(
-          intencao: "Por todos nós aqui presentes na assembleia do domingo e que escutámos as palavras de Jesus no Evangelho, para que a nossa justiça supere a dos escribas e farinossos, oremos.",
+          intencao: "Por todos nós aqui presentes na assembleia do domingo e que escutámos as palavras de Jesus no Evangelho, para que a nossa justiça supere a dos escribas e fariseus, oremos.",
         ),
       ],
-      falaFinal: "Senhor, Deus omnipotente, gravai em nós a lei do amor e do perdão, para sermos capazes de viver em conformidade com o Evangelho do nosso Filho. Ele que vive e reina por todos os séculos dos séculos.",
+      falaFinal: "Senhor, Deus omnipotente, gravai em nós a lei do amor e do perdão, para sermos capazes de viver em conformidade com o Evangelho do seu Filho. Ele que vive e reina por todos os séculos dos séculos.",
     ),
 
     "2026-02-22": PrecesDia(
@@ -7800,10 +7800,10 @@ class PrecesData {
       respostaInicial: "Kýrie, eléison.",
       preces: [
         Prece(
-          intencao: "Pela santa Igreja, pelos nossos fiéis e catecúmenos, para que a vitória de Jesus sobre o Maligno lhes dê a graça de vencer as tentações, oremos.",
+          intencao: "Pela santa Igreja, pelos seus fiéis e catecúmenos, para que a vitória de Jesus sobre o Maligno lhes dê a graça de vencer as tentações, oremos.",
         ),
         Prece(
-          intencao: "Pelos homens e mulheres de todo o mundo, para que saibam descobrir a dignidade que Deus lhes deu, ao criá-los à nossa imagem e semelhança, oremos.",
+          intencao: "Pelos homens e mulheres de todo o mundo, para que saibam descobrir a dignidade que Deus lhes deu, ao criá-los à sua imagem e semelhança, oremos.",
         ),
         Prece(
           intencao: "Por aqueles que o Demónio tenta enganar, para que encontrem nas palavras de Jesus a força para escolher sempre a vontade de Deus, oremos.",
@@ -7812,41 +7812,41 @@ class PrecesData {
           intencao: "Pelos que não têm paz ou estão doentes, para que os discípulos de Jesus sejam para eles testemunhas diligentes do Evangelho, oremos.",
         ),
         Prece(
-          intencao: "Por nós próprios e pela nossa comunidade (paroquial), para que o caminho de conversão que iniciámos nos conduza à vida em Cristo e à nossa Páscoa, oremos.",
+          intencao: "Por nós próprios e pela nossa comunidade (paroquial), para que o caminho de conversão que iniciámos nos conduza à vida em Cristo e à sua Páscoa, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus e nosso Pai, que nos ensinastes pela palavra de Jesus que o homem não vive só de pão, conduzi-nos pelo Espírito ao deserto, para escutarmos sempre mais a nossa voz. Por Cristo, nosso Senhor.",
+      falaFinal: "Senhor, nosso Deus e nosso Pai, que nos ensinastes pela palavra de Jesus que o homem não vive só de pão, conduzi-nos pelo Espírito ao deserto, para escutarmos sempre mais a sua voz. Por Cristo, nosso Senhor.",
     ),
 
     "2026-03-01": PrecesDia(
-      falaInicial: "Irmãs e irmãos: Neste tempo santo da Quaresma, Cristo anuncia a vitória da vida sobre a morte. Peçamos a Deus que nos faça escutar a nossa voz, dizendo (ou: cantando), com fé:",
+      falaInicial: "Irmãs e irmãos: Neste tempo santo da Quaresma, Cristo anuncia a vitória da vida sobre a morte. Peçamos a Deus que nos faça escutar a sua voz, dizendo (ou: cantando), com fé:",
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
           intencao: "Para que o Papa N., os bispos e os presbíteros a ele unidos recebam a graça de sofrer pelo Evangelho e ponham a confiança em Deus, como Abraão, oremos.",
         ),
         Prece(
-          intencao: "Para que os governos das várias nações defendam os cidadãos e os nossos direitos, e tudo façam pelos mais pobres e esquecidos, oremos.",
+          intencao: "Para que os governos das várias nações defendam os cidadãos e os seus direitos, e tudo façam pelos mais pobres e esquecidos, oremos.",
         ),
         Prece(
-          intencao: "Para que os doentes e todos os que sofrem vivam unidos à cruz do nosso Salvador e, um dia, cheguem à contemplação da nossa glória, oremos.",
+          intencao: "Para que os doentes e todos os que sofrem vivam unidos à cruz do nosso Salvador e, um dia, cheguem à contemplação da sua glória, oremos.",
         ),
         Prece(
-          intencao: "Para que os fiéis que se reúnem ao domingo dêem testemunho de Jesus Cristo, luz do mundo, aos que lhes pedem a razão da nossa esperança, oremos.",
+          intencao: "Para que os fiéis que se reúnem ao domingo dêem testemunho de Jesus Cristo, luz do mundo, aos que lhes pedem a razão da sua esperança, oremos.",
         ),
         Prece(
           intencao: "Para que esta assembleia de cristãos, à medida que comunga o Pão do Céu, se transfigure como Jesus no monte santo, oremos.",
         ),
       ],
-      falaFinal: "Senhor, que no monte da transfiguração nos mandastes escutar o nosso Filho, atendei a oração que o nosso Espírito fez nascer nesta santa assembleia pela Igreja, pelo mundo e por nós mesmos. Por Cristo, nosso Senhor.",
+      falaFinal: "Senhor, que no monte da transfiguração nos mandastes escutar o seu Filho, atendei a oração que o seu Espírito fez nascer nesta santa assembleia pela Igreja, pelo mundo e por nós mesmos. Por Cristo, nosso Senhor.",
     ),
 
     "2026-03-08": PrecesDia(
-      falaInicial: "Quando não se faz o primeiro escrutínio dos catecúmenos Irmãos e irmãs em Cristo: Com o ardor da nossa sede de Deus, peçamos a Jesus Cristo que dê à nossa Igreja e ao mundo inteiro a água viva que jorra para a eternidade, dizendo (ou: cantando), confiadamente:",
+      falaInicial: "Quando não se faz o primeiro escrutínio dos catecúmenos Irmãos e irmãs em Cristo: Com o ardor da nossa sede de Deus, peçamos a Jesus Cristo que dê à sua Igreja e ao mundo inteiro a água viva que jorra para a eternidade, dizendo (ou: cantando), confiadamente:",
       respostaInicial: "Cristo, ouvi-nos. Cristo, atendei-nos.",
       preces: [
         Prece(
-          intencao: "Pela Igreja, por esta Diocese de N. e nossas comunidades, para que o Senhor lhes dê a água viva e as torne fonte de graça e de perdão, oremos.",
+          intencao: "Pela Igreja, por esta Diocese de N. e suas comunidades, para que o Senhor lhes dê a água viva e as torne fonte de graça e de perdão, oremos.",
         ),
         Prece(
           intencao: "Pelos responsáveis e governantes deste mundo, para que o Senhor lhes dê a água viva e faça deles homens de paz e de justiça, oremos.",
@@ -7865,26 +7865,26 @@ class PrecesData {
     ),
 
     "2026-03-15": PrecesDia(
-      falaInicial: "Quando não se faz o segundo escrutínio dos catecúmenos Irmãs e irmãos em Cristo: Nós sabemos que a luz do mundo é Jesus Cristo, que deu vista ao cego de nascença e quer iluminar todos os homens. Peçamos a nossa luz para a Igreja, para o mundo e para cada um de nós, dizendo (ou: cantando):",
-      respostaInicial: "Renovai-nos, Senhor, no nosso Espírito.",
+      falaInicial: "Quando não se faz o segundo escrutínio dos catecúmenos Irmãs e irmãos em Cristo: Nós sabemos que a luz do mundo é Jesus Cristo, que deu vista ao cego de nascença e quer iluminar todos os homens. Peçamos a sua luz para a Igreja, para o mundo e para cada um de nós, dizendo (ou: cantando):",
+      respostaInicial: "Renovai-nos, Senhor, no seu Espírito.",
       preces: [
         Prece(
-          intencao: "Para que o Senhor dê a luz do nosso Espírito ao nosso Bispo N., aos presbíteros e aos diáconos e os ensine a ver mais além das aparências, oremos.",
+          intencao: "Para que o Senhor dê a luz do seu Espírito ao nosso Bispo N., aos presbíteros e aos diáconos e os ensine a ver mais além das aparências, oremos.",
         ),
         Prece(
-          intencao: "Para que o Senhor dê a luz do nosso Espírito a todos os responsáveis deste mundo, e eles descubram os caminhos da concórdia, oremos.",
+          intencao: "Para que o Senhor dê a luz do seu Espírito a todos os responsáveis deste mundo, e eles descubram os caminhos da concórdia, oremos.",
         ),
         Prece(
-          intencao: "Para que o Senhor dê a luz do nosso Espírito aos que andam envolvidos pelo mal e os conduza como um pastor ao nosso rebanho, oremos.",
+          intencao: "Para que o Senhor dê a luz do seu Espírito aos que andam envolvidos pelo mal e os conduza como um pastor ao seu rebanho, oremos.",
         ),
         Prece(
-          intencao: "Para que o Senhor dê a luz do nosso Espírito aos cegos, aos doentes e aos que não crêem, e todos cheguem a ver n’Ele o Salvador, oremos.",
+          intencao: "Para que o Senhor dê a luz do seu Espírito aos cegos, aos doentes e aos que não crêem, e todos cheguem a ver n’Ele o Salvador, oremos.",
         ),
         Prece(
-          intencao: "Para que o Senhor nos dê a luz do nosso Espírito, nos ensine a procurar o que Lhe agrada e nos reúna a todos no nosso reino, oremos.",
+          intencao: "Para que o Senhor nos dê a luz do seu Espírito, nos ensine a procurar o que Lhe agrada e nos reúna a todos no seu reino, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, dai-nos a graça de reconhecer no nosso Filho Aquele que é a verdadeira luz do mundo e iluminai os corações dos que não crêem com a palavra e os sinais do Evangelho. Por Cristo, nosso Senhor.",
+      falaFinal: "Senhor, nosso Deus, dai-nos a graça de reconhecer no seu Filho Aquele que é a verdadeira luz do mundo e iluminai os corações dos que não crêem com a palavra e os sinais do Evangelho. Por Cristo, nosso Senhor.",
     ),
 
     "2026-03-22": PrecesDia(
@@ -7892,10 +7892,10 @@ class PrecesData {
       respostaInicial: "Christe, eléison.",
       preces: [
         Prece(
-          intencao: "Pelos fiéis e pelos pastores da santa Igreja, para que professem a fé em Jesus Cristo, que os ressuscitou e lhes deu a nossa vida, oremos.",
+          intencao: "Pelos fiéis e pelos pastores da santa Igreja, para que professem a fé em Jesus Cristo, que os ressuscitou e lhes deu a sua vida, oremos.",
         ),
         Prece(
-          intencao: "Pelos cristãos que vivem à maneira dos pagãos, para que o Senhor os arranque dos nossos túmulos e os liberte dos enganos do Demónio, oremos.",
+          intencao: "Pelos cristãos que vivem à maneira dos pagãos, para que o Senhor os arranque dos seus túmulos e os liberte dos enganos do Demónio, oremos.",
         ),
         Prece(
           intencao: "Pelos eleitos que se preparam para o Baptismo, para que, uma vez ressuscitados de entre os mortos, sejam sempre conduzidos pelo Espírito, oremos.",
@@ -7904,10 +7904,10 @@ class PrecesData {
           intencao: "Pelos doentes, os deprimidos e os moribundos, para que o mistério da cruz os fortaleça, os alivie, os reanime e lhes dê esperança, oremos.",
         ),
         Prece(
-          intencao: "Por todos aqueles que entre nós estão de luto, para que Jesus Cristo, ressurreição e vida dos fiéis, lhes encha o coração da nossa paz, oremos.",
+          intencao: "Por todos aqueles que entre nós estão de luto, para que Jesus Cristo, ressurreição e vida dos fiéis, lhes encha o coração da sua paz, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, que vencestes a morte e o abismo ao ressuscitar o nosso Filho, libertai-nos dos pecados que nos prendem, pois Vós sois o Deus da Vida. Por Cristo, nosso Senhor.",
+      falaFinal: "Senhor, nosso Deus, que vencestes a morte e o abismo ao ressuscitar o seu Filho, libertai-nos dos pecados que nos prendem, pois Vós sois o Deus da Vida. Por Cristo, nosso Senhor.",
     ),
 
     "2026-03-29": PrecesDia(
@@ -7915,7 +7915,7 @@ class PrecesData {
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
-          intencao: "Pela santa Igreja, nossos ministros e fiéis, para que, vivendo na fé o mistério da Paixão, recolham da árvore da cruz o fruto da esperança, oremos.",
+          intencao: "Pela santa Igreja, seus ministros e fiéis, para que, vivendo na fé o mistério da Paixão, recolham da árvore da cruz o fruto da esperança, oremos.",
         ),
         Prece(
           intencao: "Pelos que fazem as leis e julgam os homens, para que defendam os inocentes e os oprimidos e restabeleçam o direito e a verdade, oremos.",
@@ -7924,36 +7924,36 @@ class PrecesData {
           intencao: "Pelos ateus e pelos cristãos sem fé, para que, à semelhança do centurião do Evangelho, descubram em Cristo crucificado o Filho de Deus, oremos.",
         ),
         Prece(
-          intencao: "Pelos doentes, os moribundos e os agonizantes, para que sintam junto de si o Salvador, que nas mãos do Pai entregou o nosso espírito, oremos.",
+          intencao: "Pelos doentes, os moribundos e os agonizantes, para que sintam junto de si o Salvador, que nas mãos do Pai entregou o seu espírito, oremos.",
         ),
         Prece(
           intencao: "Por todos nós e pela nossa comunidade (paroquial), para que, unidos à paixão e morte do Redentor, sejamos conduzidos à glória da Ressurreição, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, que Vos dignastes contar-nos entre o número daqueles para quem o nosso Filho implorou o perdão ao expirar, dai-nos a graça de descobrir, à luz da fé, o amor infinito com que nos amais. Por Cristo, nosso Senhor.",
+      falaFinal: "Senhor, nosso Deus, que Vos dignastes contar-nos entre o número daqueles para quem o seu Filho implorou o perdão ao expirar, dai-nos a graça de descobrir, à luz da fé, o amor infinito com que nos amais. Por Cristo, nosso Senhor.",
     ),
 
     "2026-04-12": PrecesDia(
       falaInicial: "ou da Divina Misericórdia (Se estiverem presentes adultos que tenham sido baptizados na última Páscoa, as intenções da oração dos fiéis poderão hoje ser propostas por eles). Irmãs e irmãos: Àsemelhança da primeira comunidade cristã, que orava num só coração e numa só alma, oremos nós também pela Igreja e pelo mundo inteiro, dizendo (ou: cantando), numa só voz:",
-      respostaInicial: "Pela ressurreição do nosso Filho, ouvi-nos, Senhor.",
+      respostaInicial: "Pela ressurreição do seu Filho, ouvi-nos, Senhor.",
       preces: [
         Prece(
           intencao: "Para que os fiéis da santa Igreja se reúnam em cada Páscoa semanal, para escutar a Palavra, partir o pão e orar juntos, oremos.",
         ),
         Prece(
-          intencao: "Para que todos os novos baptizados vençam a prova a que é submetida a nossa fé, mais preciosa do que o ouro perecível, oremos.",
+          intencao: "Para que todos os novos baptizados vençam a prova a que é submetida a sua fé, mais preciosa do que o ouro perecível, oremos.",
         ),
         Prece(
-          intencao: "Para que todos os cristãos alcancem a graça de acreditar sem terem visto e se encontrem no nosso íntimo com Jesus, oremos.",
+          intencao: "Para que todos os cristãos alcancem a graça de acreditar sem terem visto e se encontrem no seu íntimo com Jesus, oremos.",
         ),
         Prece(
           intencao: "Para que o Senhor Jesus ressuscitado dê a paz e a alegria aos que andam tristes, aos pobres, aos infelizes e aos doentes, oremos.",
         ),
         Prece(
-          intencao: "Para que a nossa comunidade aqui presente, que recebeu o perdão dos nossos pecados, adore o Pai, se entregue a Cristo e viva do Espírito, oremos.",
+          intencao: "Para que a nossa comunidade aqui presente, que recebeu o perdão dos seus pecados, adore o Pai, se entregue a Cristo e viva do Espírito, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus e nosso Pai, abri o coração dos nossos filhos ao grande dom de Jesus ressuscitado e dai-nos a graça de O encontrar, cada domingo, na Palavra proclamada e na fracção do Pão. Ele que vive e reina por todos os séculos dos séculos.",
+      falaFinal: "Senhor, nosso Deus e nosso Pai, abri o coração dos seus filhos ao grande dom de Jesus ressuscitado e dai-nos a graça de O encontrar, cada domingo, na Palavra proclamada e na fracção do Pão. Ele que vive e reina por todos os séculos dos séculos.",
     ),
 
     "2026-04-19": PrecesDia(
@@ -7976,15 +7976,15 @@ class PrecesData {
           intencao: "Por todos nós aqui reunidos em assembleia, pelos doentes da nossa Paróquia e por aqueles que já partiram deste mundo, oremos.",
         ),
       ],
-      falaFinal: "Senhor Jesus ressuscitado, que nos resgatastes da vã maneira de viver, não com ouro ou prata, mas com o nosso próprio sangue, aquecei-nos o coração com a nossa Palavra e convidai-nos a comer à nossa mesa. Vós que viveis e reinais por todos os séculos dos séculos.",
+      falaFinal: "Senhor Jesus ressuscitado, que nos resgatastes da vã maneira de viver, não com ouro ou prata, mas com o seu próprio sangue, aquecei-nos o coração com a sua Palavra e convidai-nos a comer à sua mesa. Vós que viveis e reinais por todos os séculos dos séculos.",
     ),
 
     "2026-04-26": PrecesDia(
-      falaInicial: "(Hoje, a Oração Universal poderia ser dita por várias pessoas, para melhor se manifestar a diversidade das vocações na Igreja: um pai ou uma mãe, um par de namorados, um jovem do Seminário, uma postulante dum noviciado, uma religiosa ou uma leiga consagrada, etc.) Irmãos e irmãs: Neste domingo mundial das vocações, oremos a Jesus Cristo, o Bom Pastor, pedindo-Lhe que nos faça ouvir a nossa voz, dizendo (ou: cantando), com alegria:",
+      falaInicial: "(Hoje, a Oração Universal poderia ser dita por várias pessoas, para melhor se manifestar a diversidade das vocações na Igreja: um pai ou uma mãe, um par de namorados, um jovem do Seminário, uma postulante dum noviciado, uma religiosa ou uma leiga consagrada, etc.) Irmãos e irmãs: Neste domingo mundial das vocações, oremos a Jesus Cristo, o Bom Pastor, pedindo-Lhe que nos faça ouvir a sua voz, dizendo (ou: cantando), com alegria:",
       respostaInicial: "Cristo, ouvi-nos. Cristo, atendei-nos.",
       preces: [
         Prece(
-          intencao: "Para que o Redentor livre de todo o mal a santa Igreja, lhe dê pastores segundo o nosso coração e lhe conceda as vocações de que ela precisa, oremos.",
+          intencao: "Para que o Redentor livre de todo o mal a santa Igreja, lhe dê pastores segundo o seu coração e lhe conceda as vocações de que ela precisa, oremos.",
         ),
         Prece(
           intencao: "Para que o Redentor sustente a fidelidade dos esposos, ensine os jovens a lutar pela castidade e dê às jovens o amor pela virgindade, oremos.",
@@ -7993,17 +7993,17 @@ class PrecesData {
           intencao: "Para que o Redentor Se lembre dos mais pobres, dos pecadores, dos aflitos, dos doentes e das ovelhas que não O escutam nem conhecem, oremos.",
         ),
         Prece(
-          intencao: "Para que o Redentor, que foi morto, mas ressuscitou, torne felizes para sempre no nosso reino os fiéis que O procuraram e serviram, oremos.",
+          intencao: "Para que o Redentor, que foi morto, mas ressuscitou, torne felizes para sempre no seu reino os fiéis que O procuraram e serviram, oremos.",
         ),
         Prece(
-          intencao: "Para que o Redentor, que a todos chama pelo nosso nome, faça de nós e de todos os cristãos desta comunidade, uma família onde cada um se sinta amado, oremos.",
+          intencao: "Para que o Redentor, que a todos chama pelo seu nome, faça de nós e de todos os cristãos desta comunidade, uma família onde cada um se sinta amado, oremos.",
         ),
       ],
-      falaFinal: "Senhor Jesus Cristo, Bom Pastor, que nos alegrais com a solenidade da nossa Ressurreição, ouvi as preces do nosso povo e concedei àqueles que Vos imploram, os bens que santamente desejam. Vós que viveis e reinais por todos os séculos dos séculos.",
+      falaFinal: "Senhor Jesus Cristo, Bom Pastor, que nos alegrais com a solenidade da sua Ressurreição, ouvi as preces do seu povo e concedei àqueles que Vos imploram, os bens que santamente desejam. Vós que viveis e reinais por todos os séculos dos séculos.",
     ),
 
     "2026-05-03": PrecesDia(
-      falaInicial: "Caríssimos irmãos e irmãs: Oremos a Deus Pai, que de nós fez o nosso povo, e, pela mediação do nosso Filho Jesus Cristo, peçamos-Lhe todas as graças para a Igreja e para o mundo, dizendo (ou: cantando), com alegria:",
+      falaInicial: "Caríssimos irmãos e irmãs: Oremos a Deus Pai, que de nós fez o seu povo, e, pela mediação do seu Filho Jesus Cristo, peçamos-Lhe todas as graças para a Igreja e para o mundo, dizendo (ou: cantando), com alegria:",
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
@@ -8013,7 +8013,7 @@ class PrecesData {
           intencao: "Pelos que prestam algum serviço aos cidadãos, para que o façam com espírito fraterno e estejam atentos às carências dos mais pobres, oremos.",
         ),
         Prece(
-          intencao: "Pelos cristãos perturbados e abatidos, para que creiam em Deus Pai e no nosso Reino e nas promessas de vida eterna do Evangelho, oremos.",
+          intencao: "Pelos cristãos perturbados e abatidos, para que creiam em Deus Pai e no seu Reino e nas promessas de vida eterna do Evangelho, oremos.",
         ),
         Prece(
           intencao: "Por aqueles que o mundo põe de parte, as viúvas, os idosos e os que já não produzem, para que se olhe para eles como pessoas, oremos.",
@@ -8022,12 +8022,12 @@ class PrecesData {
           intencao: "Por todos nós e pelos outros paroquianos, para que o Espírito nos torne pedras vivas deste templo que é a santa Igreja, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus e nosso Pai, que em nosso Filho nos mostrastes o caminho para chegarmos até Vós e em Vós vivermos, dai-nos a graça de sermos pedras vivas do templo santo que é a nossa Igreja. Por Cristo, nosso Senhor.",
+      falaFinal: "Senhor, nosso Deus e nosso Pai, que em seu Filho nos mostrastes o caminho para chegarmos até Vós e em Vós vivermos, dai-nos a graça de sermos pedras vivas do templo santo que é a sua Igreja. Por Cristo, nosso Senhor.",
     ),
 
     "2026-05-10": PrecesDia(
-      falaInicial: "Irmãs e irmãos: Cheios de confiança na promessa de Jesus de enviar o Espírito Santo aos nossos Apóstolos, supliquemos a Deus Pai que O envie à nossa Igreja, dizendo (ou: cantando), com fé:",
-      respostaInicial: "Mandai, Senhor, o nosso Espírito.",
+      falaInicial: "Irmãs e irmãos: Cheios de confiança na promessa de Jesus de enviar o Espírito Santo aos seus Apóstolos, supliquemos a Deus Pai que O envie à sua Igreja, dizendo (ou: cantando), com fé:",
+      respostaInicial: "Mandai, Senhor, o seu Espírito.",
       preces: [
         Prece(
           intencao: "Pelos bispos, que confirmam a fé da Igreja, pelos presbíteros, que apascentam os fiéis, e pelos diáconos, que exercem a caridade, oremos.",
@@ -8042,10 +8042,10 @@ class PrecesData {
           intencao: "Por todos os que trazem Deus no coração, pelas religiosas de vida contemplativa e por aquelas que cuidam dos mais pobres, oremos.",
         ),
         Prece(
-          intencao: "Pelos que abrem o coração ao dom do Espírito, pelos que sabem dar a razão da nossa esperança e por esta comunidade (paroquial) que adora a Cristo, oremos.",
+          intencao: "Pelos que abrem o coração ao dom do Espírito, pelos que sabem dar a razão da sua esperança e por esta comunidade (paroquial) que adora a Cristo, oremos.",
         ),
       ],
-      falaFinal: "Deus, Pai de misericórdia, que destes a estes nossos filhos a graça de reconhecerem que os amais, enviai-nos do Céu o nosso Espírito, para que seja nosso defensor e nosso guia. Por Cristo, nosso Senhor.",
+      falaFinal: "Deus, Pai de misericórdia, que destes a estes seus filhos a graça de reconhecerem que os amais, enviai-nos do Céu o seu Espírito, para que seja nosso defensor e nosso guia. Por Cristo, nosso Senhor.",
     ),
 
     "2026-05-14": PrecesDia(
@@ -8056,7 +8056,7 @@ class PrecesData {
           intencao: "Pelas Igrejas do Oriente e do Ocidente, do Norte e do Sul, para que sejam fiéis à missão que receberam de anunciar a Palavra em toda a terra, oremos.",
         ),
         Prece(
-          intencao: "Pelo Papa N., pelos bispos, presbíteros e diáconos, para que sintam que Jesus está com eles quando ensinam e baptizam em nosso nome, oremos.",
+          intencao: "Pelo Papa N., pelos bispos, presbíteros e diáconos, para que sintam que Jesus está com eles quando ensinam e baptizam em seu nome, oremos.",
         ),
         Prece(
           intencao: "Pelos que buscam a Deus olhando o Céu, para que O reconheçam também presente na terra, nos mais pobres, nos que choram ou estão sós, oremos.",
@@ -8065,18 +8065,18 @@ class PrecesData {
           intencao: "Por aqueles que não conhecem a Cristo, para que a luz da fé os ilumine e recebam o Baptismo no Espírito Santo, oremos.",
         ),
         Prece(
-          intencao: "Por todos nós aqui reunidos em assembleia, para que Deus nos chame um dia a contemplar o nosso Filho Jesus Cristo na glória eterna, oremos.",
+          intencao: "Por todos nós aqui reunidos em assembleia, para que Deus nos chame um dia a contemplar o seu Filho Jesus Cristo na glória eterna, oremos.",
         ),
       ],
       falaFinal: "",
     ),
 
     "2026-05-17": PrecesDia(
-      falaInicial: "Irmãos e irmãs caríssimos: Iluminaidos pela palavra que escutámos, e unidos em oração com os Apóstolos e com Maria, Mãe de Jesus, peçamos ao Pai do Céu a grande graça de fazer sempre o que Lhe agrada, dizendo (ou: cantando):",
-      respostaInicial: "Ensinai-nos, Senhor, a nossa lei.",
+      falaInicial: "Irmãos e irmãs caríssimos: Iluminados pela palavra que escutámos, e unidos em oração com os Apóstolos e com Maria, Mãe de Jesus, peçamos ao Pai do Céu a grande graça de fazer sempre o que Lhe agrada, dizendo (ou: cantando):",
+      respostaInicial: "Ensinai-nos, Senhor, a sua lei.",
       preces: [
         Prece(
-          intencao: "Por todos os pastores da santa Igreja, para que o Espírito lhes dê a sabedoria de servirem os nossos irmãos, a exemplo de Cristo, oremos.",
+          intencao: "Por todos os pastores da santa Igreja, para que o Espírito lhes dê a sabedoria de servirem os seus irmãos, a exemplo de Cristo, oremos.",
         ),
         Prece(
           intencao: "Pelos políticos e funcionários ao serviço dos cidadãos, para que o Espírito lhes abra o entendimento às carências e fragilidades dos mais simples, oremos.",
@@ -8091,34 +8091,34 @@ class PrecesData {
           intencao: "Pelos que sentem o coração angustiado, para que o Espírito os faça experimentar a paz tranquila que Deus lhes oferece, oremos.",
         ),
       ],
-      falaFinal: "Deus, nosso Pai, que conheceis a vida dos homens deste tempo, sujeita a tantas necessidades e perigos, permiti que o nosso Espírito de glória restitua a esperança aos que a perderam. Por Cristo, nosso Senhor.",
+      falaFinal: "Deus, nosso Pai, que conheceis a vida dos homens deste tempo, sujeita a tantas necessidades e perigos, permiti que o seu Espírito de glória restitua a esperança aos que a perderam. Por Cristo, nosso Senhor.",
     ),
 
     "2026-05-24": PrecesDia(
       falaInicial: "Missa do Dia Caríssimos cristãos: Neste dia santíssimo em que terminam as festas pascais, oremos a Deus Pai todo-poderoso, para que o dom do Espírito Santo renove toda a Igreja, dizendo (ou: cantando), com alegria:",
-      respostaInicial: "Mandai, Senhor, o nosso Espírito.",
+      respostaInicial: "Mandai, Senhor, o seu Espírito.",
       preces: [
         Prece(
           intencao: "Pela Igreja, presente em toda a terra, para que proclame as maravilhas do amor de Deus em todas as línguas e culturas do universo, oremos.",
         ),
         Prece(
-          intencao: "Pelo Papa, sucessor de Pedro, pelos bispos, e por todos os párocos e nossas comunidades, para que o Espírito Santo lhes dê ardor e sabedoria, oremos.",
+          intencao: "Pelo Papa, sucessor de Pedro, pelos bispos, e por todos os párocos e suas comunidades, para que o Espírito Santo lhes dê ardor e sabedoria, oremos.",
         ),
         Prece(
-          intencao: "Por todos aqueles que invocam a Deus como Pai e receberam em nossos corações o dom do Espírito Santo, para que sejam testemunhas vivas do Evangelho, oremos.",
+          intencao: "Por todos aqueles que invocam a Deus como Pai e receberam em seus corações o dom do Espírito Santo, para que sejam testemunhas vivas do Evangelho, oremos.",
         ),
         Prece(
-          intencao: "Por cada homem que faz o bem e ama a justiça, que luta e sofre pela liberdade e pela paz, para que o Espírito Santo torne mais firme a nossa esperança, oremos.",
+          intencao: "Por cada homem que faz o bem e ama a justiça, que luta e sofre pela liberdade e pela paz, para que o Espírito Santo torne mais firme a sua esperança, oremos.",
         ),
         Prece(
           intencao: "Pelos fiéis que receberam dons do Espírito e exercem ministérios na nossa comunidade (paroquial), para que em tudo agradem ao Senhor, oremos.",
         ),
       ],
-      falaFinal: "Deus eterno e omnipotente, que enviastes aos corações dos nossos fiéis o Espírito Santo da manhã do Pentecostes, tornai-nos testemunhas do Evangelho e das maravilhas que realizastes pelos homens. Por Cristo, nosso Senhor.",
+      falaFinal: "Deus eterno e omnipotente, que enviastes aos corações dos seus fiéis o Espírito Santo da manhã do Pentecostes, tornai-nos testemunhas do Evangelho e das maravilhas que realizastes pelos homens. Por Cristo, nosso Senhor.",
     ),
 
     "2026-05-31": PrecesDia(
-      falaInicial: "Caríssimos irmãos e irmãs: Oremos a Deus Pai todo-poderoso, por mediação de nosso Filho, Jesus Cristo, na comunhão do Espírito Santo, dizendo (ou: cantando), cheios de confiança:",
+      falaInicial: "Caríssimos irmãos e irmãs: Oremos a Deus Pai todo-poderoso, por mediação de seu Filho, Jesus Cristo, na comunhão do Espírito Santo, dizendo (ou: cantando), cheios de confiança:",
       respostaInicial: "Pai nosso, que estais nos céus, ouvi-nos.",
       preces: [
         Prece(
@@ -8128,7 +8128,7 @@ class PrecesData {
           intencao: "Pelos responsáveis no governo das nações, para que atendam sobretudo os mais humildes e trabalhem pela paz e pela justiça, oremos ao Pai, pelo Filho, no Espírito Santo.",
         ),
         Prece(
-          intencao: "Pelo mundo, por quem o Pai entregou o nosso Filho, para que todo o homem que n’Ele acredita não pereça, mas tenha a vida eterna, oremos ao Pai, pelo Filho, no Espírito Santo.",
+          intencao: "Pelo mundo, por quem o Pai entregou o seu Filho, para que todo o homem que n’Ele acredita não pereça, mas tenha a vida eterna, oremos ao Pai, pelo Filho, no Espírito Santo.",
         ),
         Prece(
           intencao: "Pelos que sofrem ou desesperam, para que encontrem junto de si quem os anime e lhes transmita a paz que vem de Deus, oremos ao Pai, pelo Filho, no Espírito Santo.",
@@ -8137,7 +8137,7 @@ class PrecesData {
           intencao: "Pela nossa comunidade (paroquial), para que Deus, clemente e compassivo, a torne atenta e fraterna para com os mais pobres, oremos ao Pai, pelo Filho, no Espírito Santo.",
         ),
       ],
-      falaFinal: "Deus Pai, clemente e compassivo, lento para a ira e rico de misericórdia, que, por nosso Filho, nos enviastes o Espírito Santo, ouvi as orações do nosso povo e dai-lhe a alegria de ser atendido em nossos desejos. Por Cristo Senhor nosso.",
+      falaFinal: "Deus Pai, clemente e compassivo, lento para a ira e rico de misericórdia, que, por seu Filho, nos enviastes o Espírito Santo, ouvi as orações do seu povo e dai-lhe a alegria de ser atendido em seus desejos. Por Cristo Senhor nosso.",
     ),
 
     "2026-06-04": PrecesDia(
@@ -8165,13 +8165,13 @@ class PrecesData {
 
     "2026-06-07": PrecesDia(
       falaInicial: "Irmãos e irmãs em Cristo: Nós que somos pecadores, imploremos a misericórdia de Deus Pai e roguemos-Lhe que atenda as nossas súplicas, dizendo (ou: cantando), com fé e humildade:",
-      respostaInicial: "Lembrai-Vos, Senhor, do nosso povo.",
+      respostaInicial: "Lembrai-Vos, Senhor, do seu povo.",
       preces: [
         Prece(
           intencao: "Para que o Papa N., os bispos e os presbíteros a ele unidos, se fortaleçam na fé, dêem glória a Deus e creiam no poder de Cristo ressuscitado, oremos.",
         ),
         Prece(
-          intencao: "Para que os homens procurem conhecer o Senhor, cooperem entre si com lealdade e reconheçam a nossa parte no pecado do mundo, oremos.",
+          intencao: "Para que os homens procurem conhecer o Senhor, cooperem entre si com lealdade e reconheçam a sua parte no pecado do mundo, oremos.",
         ),
         Prece(
           intencao: "Para que cesse o desprezo pelos emigrantes, a perseguição aos refugiados e estrangeiros e se respeitem as crianças sem família, oremos.",
@@ -8197,7 +8197,7 @@ class PrecesData {
           intencao: "Pelas nações da terra inteira, para que as mais poderosas respeitem as mais fracas, e em todas elas os cidadãos se sintam livres, oremos.",
         ),
         Prece(
-          intencao: "Pelos pecadores, pelos doentes, pelos pobres e pelos que andam cansados e oprimidos, para que encontrem em Jesus o nosso alívio, oremos.",
+          intencao: "Pelos pecadores, pelos doentes, pelos pobres e pelos que andam cansados e oprimidos, para que encontrem em Jesus o seu alívio, oremos.",
         ),
         Prece(
           intencao: "Por aqueles a quem Jesus chama ‘pequeninos’, para que lhes revele as verdades mais profundas e os ensine a ser mansos e humildes de coração, oremos.",
@@ -8206,18 +8206,18 @@ class PrecesData {
           intencao: "Pelos membros do Apostolado da Oração, para que dêem testemunho da Igreja orante e do amor de Cristo por todos os homens, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, que pela vida e pelas palavras de Jesus nos ensinais a sermos nossos discípulos, fazei-nos encontrar o repouso que buscamos no nosso Coração manso e humilde. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, nosso Deus, que pela vida e pelas palavras de Jesus nos ensinais a sermos seus discípulos, fazei-nos encontrar o repouso que buscamos no seu Coração manso e humilde. Por Cristo Senhor nosso.",
     ),
 
     "2026-06-14": PrecesDia(
-      falaInicial: "Caríssimos cristãos: Oremos a Deus Pai todo-poderoso e, pelos méritos de Jesus Cristo, nosso Filho, que morreu por nós quando éramos pecadores, peçamos (ou: cantemos), com toda a confiança:",
-      respostaInicial: "Atendeii, Senhor, a nossa prece.",
+      falaInicial: "Caríssimos cristãos: Oremos a Deus Pai todo-poderoso e, pelos méritos de Jesus Cristo, seu Filho, que morreu por nós quando éramos pecadores, peçamos (ou: cantemos), com toda a confiança:",
+      respostaInicial: "Atendei, Senhor, a nossa prece.",
       preces: [
         Prece(
           intencao: "Pelos bispos, sucessores dos Apóstolos, pelos trabalhadores da seara do Senhor e pelas multidões fatigadas e abatidas, oremos.",
         ),
         Prece(
-          intencao: "Pelos que têm de partir da nossa pátria, pelos profetas a quem Deus manda falar e pelo povo que os escuta e se converte, oremos.",
+          intencao: "Pelos que têm de partir da sua pátria, pelos profetas a quem Deus manda falar e pelo povo que os escuta e se converte, oremos.",
         ),
         Prece(
           intencao: "Pelas ovelhas que andam sem pastor, pelos enfermos de doenças incuráveis, pelos leprosos e pelos moribundos, oremos.",
@@ -8229,24 +8229,24 @@ class PrecesData {
           intencao: "Por nós mesmos, povo de reis e nação santa, que o Filho de Deus reconciliou, e pelos defuntos das nossas famílias e da nossa Paróquia, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, que tivestes compaixão das multidões e lhes mandastes o nosso Filho muito amado, dai-nos a graça de ouvir a nossa voz, para Vos servirmos, adorarmos e bendizermos. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, nosso Deus, que tivestes compaixão das multidões e lhes mandastes o seu Filho muito amado, dai-nos a graça de ouvir a sua voz, para Vos servirmos, adorarmos e bendizermos. Por Cristo Senhor nosso.",
     ),
 
     "2026-06-21": PrecesDia(
-      falaInicial: "Irmãs e irmãos em Cristo: Elevemos as nossas preces ao Senhor, que, pela nossa grande misericórdia, pode libertar a vida dos pobres, e peçamos com fé (cantando):",
+      falaInicial: "Irmãs e irmãos em Cristo: Elevemos as nossas preces ao Senhor, que, pela sua grande misericórdia, pode libertar a vida dos pobres, e peçamos com fé (cantando):",
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
           intencao: "Pelo nosso Bispo N., presbíteros e diáconos, para que dirijam a Igreja de N. com sabedoria, no caminho da santidade e da salvação, oremos.",
         ),
         Prece(
-          intencao: "Pelos governos e autoridades deste mundo, para que digam a verdade aos cidadãos e não se sirvam do poder em nosso proveito, oremos.",
+          intencao: "Pelos governos e autoridades deste mundo, para que digam a verdade aos cidadãos e não se sirvam do poder em seu proveito, oremos.",
         ),
         Prece(
           intencao: "Pelos que lutam por mais justiça e bem-estar, para que o façam segundo o Evangelho e defendam corajosamente quem é mais fraco, oremos.",
         ),
         Prece(
-          intencao: "Por aqueles a quem Deus chama no nosso íntimo, para que busquem com ardor os bens eternos e se declarem por Jesus em toda a parte, oremos.",
+          intencao: "Por aqueles a quem Deus chama no seu íntimo, para que busquem com ardor os bens eternos e se declarem por Jesus em toda a parte, oremos.",
         ),
         Prece(
           intencao: "Por nós próprios que escutámos a Palavra, para experimentarmos o perdão de Deus, que supera todos os nossos pecados, oremos.",
@@ -8257,7 +8257,7 @@ class PrecesData {
 
     "2026-06-28": PrecesDia(
       falaInicial: "Irmãos e irmãs: Façamos subir até Deus as súplicas da Igreja e da humanidade, e imploremos, com muita confiança (cantando):",
-      respostaInicial: "Concedei-nos, Senhor, a nossa graça.",
+      respostaInicial: "Concedei-nos, Senhor, a sua graça.",
       preces: [
         Prece(
           intencao: "Para que Deus confirme a santa Igreja na fé, na esperança e na caridade, até à vinda gloriosa de Cristo Salvador, oremos.",
@@ -8266,7 +8266,7 @@ class PrecesData {
           intencao: "Para que os homens saibam acolher os estrangeiros, os mais pobres e os excluídos e recebam em recompensa a vida eterna, oremos.",
         ),
         Prece(
-          intencao: "Para que os pais apreciem e respeitem a vocação própria dos nossos filhos, e estes não desprezem os conselhos dos nossos pais, oremos.",
+          intencao: "Para que os pais apreciem e respeitem a vocação própria dos seus filhos, e estes não desprezem os conselhos dos seus pais, oremos.",
         ),
         Prece(
           intencao: "Para que todos os recém-baptizados alcancem a maturidade da fé e vivam para Deus, que os chamou, oremos.",
@@ -8275,7 +8275,7 @@ class PrecesData {
           intencao: "Para que a misericórdia infinita de Deus Pai perdoe as nossas faltas de bondade e dê aos defuntos a companhia dos santos, oremos.",
         ),
       ],
-      falaFinal: "Senhor, vinde em nosso auxílio com a nossa graça, para pegarmos na nossa cruz todos os dias, Vos descobrirmos na pessoa dos mais pobres, e Vos amarmos acima de todas as coisas. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, vinde em nosso auxílio com a sua graça, para pegarmos na nossa cruz todos os dias, Vos descobrirmos na pessoa dos mais pobres, e Vos amarmos acima de todas as coisas. Por Cristo Senhor nosso.",
     ),
 
     "2026-07-05": PrecesDia(
@@ -8283,7 +8283,7 @@ class PrecesData {
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
-          intencao: "Pelo Papa N., pastor dado por Deus à nossa Igreja, pelos bispos, presbíteros e diáconos a ele unidos na caridade e por cada uma das dioceses onde trabalham, oremos.",
+          intencao: "Pelo Papa N., pastor dado por Deus à sua Igreja, pelos bispos, presbíteros e diáconos a ele unidos na caridade e por cada uma das dioceses onde trabalham, oremos.",
         ),
         Prece(
           intencao: "Pelos cientistas e homens cultos que não crêem em Deus, por aqueles que O procuram, mas não O encontram, e pelos pequeninos, a quem Jesus revela o Pai, oremos.",
@@ -8298,12 +8298,12 @@ class PrecesData {
           intencao: "Pelos que se alimentam do pão que vem do Céu, pelos que bendizem o Senhor dia após dia e pelos defuntos que O amaram e serviram, oremos.",
         ),
       ],
-      falaFinal: "Senhor, que na palavra proclamada neste dia nos revelais a mansidão do nosso Filho, o Salvador que veio ao nosso encontro, ensinai-nos a louvar o nosso nome e a exaltar-Vos como nosso Deus e nosso Rei. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, que na palavra proclamada neste dia nos revelais a mansidão do seu Filho, o Salvador que veio ao nosso encontro, ensinai-nos a louvar o seu nome e a exaltar-Vos como nosso Deus e nosso Rei. Por Cristo Senhor nosso.",
     ),
 
     "2026-07-12": PrecesDia(
-      falaInicial: "Irmãs e irmãos: Oremos a Deus Pai todo-poderoso, que, no nosso amor infinito, quer iluminar e salvar todos os homens, e digamos (ou: e cantemos), confiadamente:",
-      respostaInicial: "Ouvi, Senhor, a oração do nosso povo.",
+      falaInicial: "Irmãs e irmãos: Oremos a Deus Pai todo-poderoso, que, no seu amor infinito, quer iluminar e salvar todos os homens, e digamos (ou: e cantemos), confiadamente:",
+      respostaInicial: "Escutai, Senhor, a oração do seu povo.",
       preces: [
         Prece(
           intencao: "Pelas dioceses, paróquias e missões do mundo inteiro, para que a Palavra que os semeadores vão semeando dê fruto abundante no coração dos que a recebem, oremos.",
@@ -8315,7 +8315,7 @@ class PrecesData {
           intencao: "Por todos os que sofrem no corpo ou no espírito, para que acreditem que as dores do tempo presente não têm comparação com a glória prometida, oremos.",
         ),
         Prece(
-          intencao: "Pelos que cultivam a terra com lágrimas, para que seja reconhecido o nosso trabalho, e o tempo favoreça colheitas abundantes, oremos.",
+          intencao: "Pelos que cultivam a terra com lágrimas, para que seja reconhecido o seu trabalho, e o tempo favoreça colheitas abundantes, oremos.",
         ),
         Prece(
           intencao: "Por todos nós reunidos no Espírito Santo, para que vivamos a mensagem que escutámos e nos amemos como irmãos na santa Igreja, oremos.",
@@ -8329,13 +8329,13 @@ class PrecesData {
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
-          intencao: "Para que o nosso Bispo N., e os nossos presbíteros e diáconos semeiem a boa semente no campo de Deus e a confiem aos cuidados de Jesus e de nossa Mãe, oremos.",
+          intencao: "Para que o nosso Bispo N., e os seus presbíteros e diáconos semeiem a boa semente no campo de Deus e a confiem aos cuidados de Jesus e de sua Mãe, oremos.",
         ),
         Prece(
           intencao: "Para que ninguém julgue os outros com dureza e todos saibam ser justos e humanos como Deus é indulgente para com todos, oremos.",
         ),
         Prece(
-          intencao: "Para que Deus purifique o mundo dos nossos erros, cure as doenças, afaste a fome, acabe as guerras e dê a paz do coração aos que a não têm, oremos.",
+          intencao: "Para que Deus purifique o mundo dos seus erros, cure as doenças, afaste a fome, acabe as guerras e dê a paz do coração aos que a não têm, oremos.",
         ),
         Prece(
           intencao: "Para que os adultos, os adolescentes e os jovens, saibam descobrir, contemplar e respeitar as maravilhas criadas por Deus, oremos.",
@@ -8349,19 +8349,19 @@ class PrecesData {
 
     "2026-07-26": PrecesDia(
       falaInicial: "Unidos no Espírito Santo, peçamos, irmãs e irmãos, a Deus Pai, para nós e para os outros fiéis, os dons que Ele tem preparados para todos, dizendo (ou: cantando), com fé e humildade:",
-      respostaInicial: "Abençoai, Senhor, o nosso povo.",
+      respostaInicial: "Abençoai, Senhor, o seu povo.",
       preces: [
         Prece(
-          intencao: "Pela Igreja santa e pela nossa unidade, pela nossa Igreja particular e pela nossa santidade, pelos ministros que a servem e por todos os nossos fiéis, oremos.",
+          intencao: "Pela Igreja santa e pela sua unidade, pela nossa Igreja particular e pela sua santidade, pelos ministros que a servem e por todos os seus fiéis, oremos.",
         ),
         Prece(
           intencao: "Pelos que têm de julgar e pelos que são julgados, pelos que procuram, mas não encontram, pelos que estão alegres e pelos que choram, oremos.",
         ),
         Prece(
-          intencao: "Por aqueles que têm fé e pelos descrentes, pelos que fazem de Deus o nosso tesouro e por todos os que O negam e ofendem, oremos.",
+          intencao: "Por aqueles que têm fé e pelos descrentes, pelos que fazem de Deus o seu tesouro e por todos os que O negam e ofendem, oremos.",
         ),
         Prece(
-          intencao: "Pelos que estudam e pelos que ensinam, pelos a, pelos pais e pelos filhos, pelos jovens, os adolescentes e as crianças, oremos.",
+          intencao: "Pelos que estudam e pelos que ensinam, pelos avocês, pelos pais e pelos filhos, pelos jovens, os adolescentes e as crianças, oremos.",
         ),
         Prece(
           intencao: "Por nós próprios e pelos outros baptizados, pelos leitores que proclamam a palavra de Deus e pelos acólitos que servem o altar da Eucaristia, oremos.",
@@ -8371,7 +8371,7 @@ class PrecesData {
     ),
 
     "2026-08-02": PrecesDia(
-      falaInicial: "Irmãos e irmãs em Cristo: Imploremos a Deus Pai todo-poderoso que tenha compaixão dos nossos fiéis e dos homens e mulheres que não têm fé, dizendo (ou: cantando), com toda a confiança:",
+      falaInicial: "Irmãos e irmãs em Cristo: Imploremos a Deus Pai todo-poderoso que tenha compaixão dos seus fiéis e dos homens e mulheres que não têm fé, dizendo (ou: cantando), com toda a confiança:",
       respostaInicial: "Deus omnipotente, vinde em nosso auxílio.",
       preces: [
         Prece(
@@ -8384,21 +8384,21 @@ class PrecesData {
           intencao: "Pelos homens e mulheres desiludidos da vida, para que descubram a força da Boa Nova de Cristo e nela encontrem a felicidade, oremos.",
         ),
         Prece(
-          intencao: "Pelos fiéis que chegaram ao fim da vida, para que Deus os guarde na nossa graça e os receba no nosso reino de paz, oremos.",
+          intencao: "Pelos fiéis que chegaram ao fim da vida, para que Deus os guarde na sua graça e os receba no seu reino de paz, oremos.",
         ),
         Prece(
           intencao: "Por todos nós aqui presentes em assembleia, para que, depois da nossa peregrinação sobre a terra, sejamos recebidos nas moradas celestes, oremos.",
         ),
       ],
-      falaFinal: "Deus clemente e compassivo, que velais com cuidado pelos seres humanos e conheceis aquilo que lhes falta, preparai os nossos corações para Vos acolherem a Vós mesmo. Por Cristo Senhor nosso.",
+      falaFinal: "Deus clemente e compassivo, que velais com cuidado pelos seres humanos e conheceis aquilo que lhes falta, preparai os seus corações para Vos acolherem a Vós mesmo. Por Cristo Senhor nosso.",
     ),
 
     "2026-08-09": PrecesDia(
       falaInicial: "Caríssimos cristãos: Oremos a Deus nosso Pai, que nos escuta quando O invocamos, e apresentemos-Lhe as nossas preces por todos os homens, dizendo (ou: cantando), numa só voz:",
-      respostaInicial: "Mostrai-nos, Senhor, a nossa misericórdia.",
+      respostaInicial: "Mostrai-nos, Senhor, a sua misericórdia.",
       preces: [
         Prece(
-          intencao: "Pela Igreja de N., nossas paróquias e fiéis, para que Deus lhes revele o mistério do vento forte, do fogo ardente e da brisa leve, oremos.",
+          intencao: "Pela Igreja de N., suas paróquias e fiéis, para que Deus lhes revele o mistério do vento forte, do fogo ardente e da brisa leve, oremos.",
         ),
         Prece(
           intencao: "Pelos párocos, missionários e irmãos leigos, para que tenham confiança e nada temam, pois Jesus é mais forte que a força das ondas, oremos.",
@@ -8413,18 +8413,18 @@ class PrecesData {
           intencao: "Pelos emigrantes das nossas comunidades, para que a palavra de Deus os faça crescer na fé e Jesus lhes estenda as mãos nas dificuldades da vida, oremos.",
         ),
       ],
-      falaFinal: "Senhor, que estais sempre junto daqueles a quem as tempestades deste mundo põem em perigo, fazei que eles reconheçam a nossa presença e descubram que não podem caminhar sem a nossa luz e a nossa força. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, que estais sempre junto daqueles a quem as tempestades deste mundo põem em perigo, fazei que eles reconheçam a sua presença e descubram que não podem caminhar sem a sua luz e a sua força. Por Cristo Senhor nosso.",
     ),
 
     "2026-08-16": PrecesDia(
-      falaInicial: "Irmãs e irmãos em Cristo: Deus quer conduzir ao nosso monte santo todos os habitantes da terra. Peçamos pelas intenções do mundo inteiro, dizendo (ou: cantando), com fé e humildade:",
-      respostaInicial: "Lembrai-Vos, Senhor, do nosso povo.",
+      falaInicial: "Irmãs e irmãos em Cristo: Deus quer conduzir ao seu monte santo todos os habitantes da terra. Peçamos pelas intenções do mundo inteiro, dizendo (ou: cantando), com fé e humildade:",
+      respostaInicial: "Lembrai-Vos, Senhor, do seu povo.",
       preces: [
         Prece(
           intencao: "Pelo Bispo N. que o Senhor nos concedeu, pelos presbíteros, diáconos e catequistas, e por todos os servidores da nossa Diocese, oremos.",
         ),
         Prece(
-          intencao: "Pelos povos da terra e nosso desenvolvimento, pelos estrangeiros que vivem entre nós e pelos homens desprezados e infelizes, oremos.",
+          intencao: "Pelos povos da terra e seu desenvolvimento, pelos estrangeiros que vivem entre nós e pelos homens desprezados e infelizes, oremos.",
         ),
         Prece(
           intencao: "Pelos que não têm casa, nem família, nem carinho, pelos que procuram trabalho e não o encontram e pelas vítimas das injustiças e maldades, oremos.",
@@ -8433,24 +8433,24 @@ class PrecesData {
           intencao: "Pelas mães que pedem a Deus que as socorra, por aquelas que perderam toda a esperança, pelos pobres, pelos órfãos e pelas viúvas, oremos.",
         ),
         Prece(
-          intencao: "Por nós próprios que celebramos a nossa fé, por aqueles que a perderam ou a abandonaram e pelos que louvam a Deus com nossas obras, oremos.",
+          intencao: "Por nós próprios que celebramos a nossa fé, por aqueles que a perderam ou a abandonaram e pelos que louvam a Deus com suas obras, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, que escutastes as súplicas da mulher cananeia, atendei a oração do nosso povo e concedei a todos aqueles por quem pedimos a graça de Vos conhecerem e amarem. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, nosso Deus, que escutastes as súplicas da mulher cananeia, atendei a oração do seu povo e concedei a todos aqueles por quem pedimos a graça de Vos conhecerem e amarem. Por Cristo Senhor nosso.",
     ),
 
     "2026-08-23": PrecesDia(
       falaInicial: "Irmãos e irmãs: Oremos ao Deus santo e misterioso, que revelou a Pedro que Jesus era o Messias e nos chama a todos a ser santos, dizendo (ou: cantando), com toda a confiança:",
-      respostaInicial: "Atendeii, Senhor, a nossa prece.",
+      respostaInicial: "Atendei, Senhor, a nossa prece.",
       preces: [
         Prece(
           intencao: "Pela santa Igreja, fundada sobre a rocha de Pedro, para que permaneça firme na fé e seja testemunha do amor constante de Cristo, oremos.",
         ),
         Prece(
-          intencao: "Pelos dirigentes dos povos e nossos conselheiros, para que o Senhor lhes inspire projectos de paz, e eles edifiquem uma sociedade mais justa, oremos.",
+          intencao: "Pelos dirigentes dos povos e seus conselheiros, para que o Senhor lhes inspire projectos de paz, e eles edifiquem uma sociedade mais justa, oremos.",
         ),
         Prece(
-          intencao: "Pelos que são perseguidos por motivos religiosos ou políticos, para que seja respeitada a nossa dignidade humana e possam, livremente, escolher o nosso caminho, oremos.",
+          intencao: "Pelos que são perseguidos por motivos religiosos ou políticos, para que seja respeitada a sua dignidade humana e possam, livremente, escolher o seu caminho, oremos.",
         ),
         Prece(
           intencao: "Pelos que têm fome, estão doentes ou sozinhos, para que encontrem em cada homem um amigo e creiam que Jesus está perto dos que n’Ele confiam, oremos.",
@@ -8459,7 +8459,7 @@ class PrecesData {
           intencao: "Por todos nós aqui reunidos em assembleia, para que sejamos pedras vivas da Igreja e discípulos verdadeiros de Jesus, oremos.",
         ),
       ],
-      falaFinal: "Senhor, Pai santo, que fundastes a Igreja do nosso Filho sobre a rocha firme de Pedro e dos Apóstolos e nos chamastes a entrar como pedras vivas na nossa construção, dai-nos a graça de permanecer na unidade da fé. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, Pai santo, que fundastes a Igreja do seu Filho sobre a rocha firme de Pedro e dos Apóstolos e nos chamastes a entrar como pedras vivas na sua construção, dai-nos a graça de permanecer na unidade da fé. Por Cristo Senhor nosso.",
     ),
 
     "2026-08-30": PrecesDia(
@@ -8467,7 +8467,7 @@ class PrecesData {
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
-          intencao: "Para que os bispos, os presbíteros e os diáconos, busquem apenas no Senhor a nossa glória e não se envergonhem da cruz do Salvador, oremos.",
+          intencao: "Para que os bispos, os presbíteros e os diáconos, busquem apenas no Senhor a sua glória e não se envergonhem da cruz do Salvador, oremos.",
         ),
         Prece(
           intencao: "Para que os chefes dos povos e nações respeitem a dignidade de toda a pessoa humana, rica ou pobre, honrada ou desconhecida, oremos.",
@@ -8479,18 +8479,18 @@ class PrecesData {
           intencao: "Para que os monges, os religiosos e as religiosas, sejam como os profetas de Israel, que se deixaram seduzir pelo Senhor, oremos.",
         ),
         Prece(
-          intencao: "Para que os membros da nossa comunidade (paroquial) tenham sede de Deus e da Palavra e encontrem no Senhor o nosso refúgio, oremos.",
+          intencao: "Para que os membros da nossa comunidade (paroquial) tenham sede de Deus e da Palavra e encontrem no Senhor o seu refúgio, oremos.",
         ),
       ],
-      falaFinal: "Deus, nosso Pai, que pela palavra de Jesus nos convidais a segui-l’O, iluminai o nosso olhar para que, fazendo agora a nossa vontade, sejamos recebidos um dia na glória eterna. Por Cristo Senhor nosso.",
+      falaFinal: "Deus, nosso Pai, que pela palavra de Jesus nos convidais a segui-l’O, iluminai o nosso olhar para que, fazendo agora a sua vontade, sejamos recebidos um dia na glória eterna. Por Cristo Senhor nosso.",
     ),
 
     "2026-09-06": PrecesDia(
       falaInicial: "Irmãs e irmãos: Em nome de todos os homens e mulheres do mundo, imploremos a Jesus, que está no meio de nós, que lhes conceda os bens de que precisam, dizendo (ou: cantando), com toda a confiança:",
-      respostaInicial: "Concedei-nos, Senhor, a nossa graça.",
+      respostaInicial: "Concedei-nos, Senhor, a sua graça.",
       preces: [
         Prece(
-          intencao: "Pela nossa Diocese e nossas comunidades, pelos fiéis que nelas exercem algum ministério e pelos responsáveis da catequese, da liturgia e da caridade, oremos.",
+          intencao: "Pela nossa Diocese e suas comunidades, pelos fiéis que nelas exercem algum ministério e pelos responsáveis da catequese, da liturgia e da caridade, oremos.",
         ),
         Prece(
           intencao: "Pelos profetas, sentinelas de Deus enviadas à Igreja, pelos homens que trabalham honestamente e pelos que amam o próximo como a si mesmos, oremos.",
@@ -8505,7 +8505,7 @@ class PrecesData {
           intencao: "Pela nossa comunidade cristã, pelas famílias que aí permanecem no amor e pelos fiéis que se reúnem em nome de Jesus, oremos.",
         ),
       ],
-      falaFinal: "Senhor Jesus Cristo, que prometestes estar no meio de nós, quando dois ou três se reúnem em nosso nome, ajudai-nos a escutar a nossa Palavra, e a abrir o coração aos apelos dos nossos irmãos. Vós que viveis e reinais por todos os séculos dos séculos.",
+      falaFinal: "Senhor Jesus Cristo, que prometestes estar no meio de nós, quando dois ou três se reúnem em seu nome, ajudai-nos a escutar a sua Palavra, e a abrir o coração aos apelos dos nossos irmãos. Vós que viveis e reinais por todos os séculos dos séculos.",
     ),
 
     "2026-09-13": PrecesDia(
@@ -8528,12 +8528,12 @@ class PrecesData {
           intencao: "Pelos membros desta assembleia celebrante e por todos os emigrantes da nossa Paróquia, para que ponham em prática a mensagem de Jesus sobre o perdão, oremos.",
         ),
       ],
-      falaFinal: "Senhor de misericórdia infinita, não limiteis a nossa indulgência à nossa capacidade de perdoar, mas ensinai-nos a descobrir em nosso Filho a medida do nosso perdão. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor de misericórdia infinita, não limiteis a sua indulgência à nossa capacidade de perdoar, mas ensinai-nos a descobrir em seu Filho a medida do seu perdão. Por Cristo Senhor nosso.",
     ),
 
     "2026-09-20": PrecesDia(
       falaInicial: "O remos, irmãos e irmãs, a Deus Pai, que está perto de quantos O invocam e é misericordioso para com todos, e supliquemos confiadamente, dizendo (ou: cantando):",
-      respostaInicial: "Ouvi, Senhor, a oração do nosso povo.",
+      respostaInicial: "Escutai, Senhor, a oração do seu povo.",
       preces: [
         Prece(
           intencao: "Para que a palavra de Deus ilumine a santa Igreja, e, em todas as horas da tarde e da manhã, haja quem trabalhe na vinha do Senhor, oremos.",
@@ -8548,10 +8548,10 @@ class PrecesData {
           intencao: "Para que as nossas aldeias, vilas e cidades, sejam lugares de convivência e amizade, onde se invoque o Senhor e haja paz, oremos.",
         ),
         Prece(
-          intencao: "Para que os membros da nossa assembleia dominical sintam gosto em trabalhar no serviço do Evangelho e encham o coração com os nossos valores, oremos.",
+          intencao: "Para que os membros da nossa assembleia dominical sintam gosto em trabalhar no serviço do Evangelho e encham o coração com os seus valores, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, cujos pensamentos e caminhos estão muito acima dos nossos, fazei que a palavra de Jesus nos desperte para o trabalho da nossa vinha. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, nosso Deus, cujos pensamentos e caminhos estão muito acima dos nossos, fazei que a palavra de Jesus nos desperte para o trabalho da sua vinha. Por Cristo Senhor nosso.",
     ),
 
     "2026-09-27": PrecesDia(
@@ -8565,21 +8565,21 @@ class PrecesData {
           intencao: "Pelos que procuram agradar a Deus, pelos pecadores que se afastam do mal e pelos justos que deixam de ser bons, oremos.",
         ),
         Prece(
-          intencao: "Pelos homens seguros de si próprios, por aqueles que reconhecem a nossa fragilidade e por todos os que se levantam quando caem, oremos.",
+          intencao: "Pelos homens seguros de si próprios, por aqueles que reconhecem a sua fragilidade e por todos os que se levantam quando caem, oremos.",
         ),
         Prece(
           intencao: "Pelos professores e alunos de todas as escolas, pelos que vão entrar no último ano de estudos e pelos que já terminaram, mas não têm trabalho, oremos.",
         ),
         Prece(
-          intencao: "Pela nossa assembleia do domingo, pelos nossos membros mais activos e fiéis e pelos que se recusam a servir a comunidade, oremos.",
+          intencao: "Pela nossa assembleia do domingo, pelos seus membros mais activos e fiéis e pelos que se recusam a servir a comunidade, oremos.",
         ),
       ],
-      falaFinal: "Senhor, Pai santo, fazei nascer em cada um de nós os mesmos sentimentos que havia em nosso Filho, que Se entregou à morte pelos homens. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, Pai santo, fazei nascer em cada um de nós os mesmos sentimentos que havia em seu Filho, que Se entregou à morte pelos homens. Por Cristo Senhor nosso.",
     ),
 
     "2026-10-04": PrecesDia(
       falaInicial: "Irmãos e irmãs: Unidos a Cristo, como as vides ligadas à cepa, que as faz viver, peçamos ao Senhor a graça de dar fruto abundante, dizendo (ou: cantando), com fé e humildade:",
-      respostaInicial: "Abençoai, Senhor, o nosso povo.",
+      respostaInicial: "Abençoai, Senhor, o seu povo.",
       preces: [
         Prece(
           intencao: "Pelos cristãos da nossa Diocese de N., para que sejam verdadeiros, justos e puros, e ponham em prática o que escutaram na Palavra, oremos.",
@@ -8597,27 +8597,27 @@ class PrecesData {
           intencao: "Por nós próprios e pela nossa comunidade (paroquial), para que o Espírito Santo nos ensine a orar, a suplicar e a dar graças, oremos.",
         ),
       ],
-      falaFinal: "Senhor, Deus do universo, olhai dos Céus e vede esta vinha que a nossa mão direita plantou e fazei-nos encontrar na Eucaristia a seiva que nos faz produzir frutos de vida eterna. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, Deus do universo, olhai dos Céus e vede esta vinha que a sua mão direita plantou e fazei-nos encontrar na Eucaristia a seiva que nos faz produzir frutos de vida eterna. Por Cristo Senhor nosso.",
     ),
 
     "2026-10-11": PrecesDia(
-      falaInicial: "Caríssimos irmãos e irmãs: Oremos ao Senhor, nosso Deus, que convida todos os homens para o banquete das núpcias de nosso Filho, e digamos (ou: e cantemos), com alegria:",
+      falaInicial: "Caríssimos irmãos e irmãs: Oremos ao Senhor, nosso Deus, que convida todos os homens para o banquete das núpcias de seu Filho, e digamos (ou: e cantemos), com alegria:",
       respostaInicial: "Deus omnipotente, vinde em nosso auxílio.",
       preces: [
         Prece(
-          intencao: "Para que o nosso Bispo N., nossos presbíteros e diáconos não se cansem de convidar todos os homens a tomar parte no banquete do Cordeiro, oremos.",
+          intencao: "Para que o nosso Bispo N., seus presbíteros e diáconos não se cansem de convidar todos os homens a tomar parte no banquete do Cordeiro, oremos.",
         ),
         Prece(
           intencao: "Para que os homens que ocupam cargos públicos se tornem servidores dos cidadãos e se preocupem sobretudo com os mais pobres, oremos.",
         ),
         Prece(
-          intencao: "Para que Jesus ensine os nossos discípulos a viverem na pobreza ou na abundância e a deixarem-se converter interiormente, oremos.",
+          intencao: "Para que Jesus ensine os seus discípulos a viverem na pobreza ou na abundância e a deixarem-se converter interiormente, oremos.",
         ),
         Prece(
           intencao: "Para que as palavras do Evangelho deste dia nos ajudem a alargar, sem preconceitos, o coração a todos os homens, oremos.",
         ),
         Prece(
-          intencao: "Para que os membros da nossa comunidade (paroquial) revelem, nos nossos gestos e palavras, o rosto de Jesus aos que O procuram, oremos.",
+          intencao: "Para que os membros da nossa comunidade (paroquial) revelem, nos seus gestos e palavras, o rosto de Jesus aos que O procuram, oremos.",
         ),
       ],
       falaFinal: "Senhor, nosso Deus, que nos convidais a subir ao monte santo, enxugai as lágrimas de todos os rostos e fazei desaparecer da terra inteira a violência e a miséria que destroem. Por Cristo Senhor nosso.",
@@ -8625,10 +8625,10 @@ class PrecesData {
 
     "2026-10-18": PrecesDia(
       falaInicial: "Irmãs e irmãos: A exemplo do apóstolo São Paulo, oremos, nós também, ao Pai celeste pela Igreja e por todos os homens deste mundo, dizendo (ou cantando), numa só voz:",
-      respostaInicial: "Ouvi, Senhor, a oração do nosso povo.",
+      respostaInicial: "Ouvi, Senhor, a oração do seu povo.",
       preces: [
         Prece(
-          intencao: "Pelas Igrejas do Oriente e do Ocidente, pelas que vivem em países de missão e pelos nossos bispos, presbíteros e missionários, oremos.",
+          intencao: "Pelas Igrejas do Oriente e do Ocidente, pelas que vivem em países de missão e pelos seus bispos, presbíteros e missionários, oremos.",
         ),
         Prece(
           intencao: "Pelos que estão constituídos em autoridade, pelos que dão a César o que é de César, e pelos que dão a Deus o que é de Deus, oremos.",
@@ -8648,10 +8648,10 @@ class PrecesData {
 
     "2026-10-25": PrecesDia(
       falaInicial: "Caríssimos cristãos: Oremos para que os discípulos de Jesus ponham em prática o duplo mandamento do amor, inscrito no coração de todo o homem, dizendo (ou: cantando), com fé e humildade:",
-      respostaInicial: "Lembrai-Vos, Senhor, do nosso povo.",
+      respostaInicial: "Lembrai-Vos, Senhor, do seu povo.",
       preces: [
         Prece(
-          intencao: "Pelo Papa N., pelos bispos e presbíteros, pelos diáconos e fiéis, para que se entreguem, com ardor e sem descanso, ao serviço do Deus vivo e da nossa Palavra, oremos.",
+          intencao: "Pelo Papa N., pelos bispos e presbíteros, pelos diáconos e fiéis, para que se entreguem, com ardor e sem descanso, ao serviço do Deus vivo e da sua Palavra, oremos.",
         ),
         Prece(
           intencao: "Pelos povos onde a guerra parece não ter fim e pelas famílias onde já não há amor, para que Deus lhes renove a esperança, oremos.",
@@ -8660,21 +8660,21 @@ class PrecesData {
           intencao: "Pelos pobres, os explorados e os órfãos e por aqueles que a sociedade põe de lado, para que encontrem quem os ame e os acolha, oremos.",
         ),
         Prece(
-          intencao: "Pelos homens e mulheres não violentos, para que Deus seja a nossa força nos combates que tiverem de travar, oremos.",
+          intencao: "Pelos homens e mulheres não violentos, para que Deus seja a sua força nos combates que tiverem de travar, oremos.",
         ),
         Prece(
           intencao: "Pela nossa assembleia dominical, para que a Palavra que nela escutámos nos leve a falar e a viver como Jesus, oremos.",
         ),
       ],
-      falaFinal: "Senhor, Pai santo, que sabeis amar e perdoar sempre, concedei a estes nossos filhos, que escutaram a nossa Palavra, a graça de Vos imitar no amor e no perdão. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, Pai santo, que sabeis amar e perdoar sempre, concedei a estes seus filhos, que escutaram a sua Palavra, a graça de Vos imitar no amor e no perdão. Por Cristo Senhor nosso.",
     ),
 
     "2026-11-01": PrecesDia(
       falaInicial: "Caríssimos fiéis: Apresentemos com toda a confiança ao Pai celeste, as alegrias, as tristezas e as esperanças de todos os homens e mulheres que há no mundo, dizendo (ou: cantando):",
-      respostaInicial: "Atendeii, Senhor, a nossa prece.",
+      respostaInicial: "Atendei, Senhor, a nossa prece.",
       preces: [
         Prece(
-          intencao: "Para que a santa Igreja, a nossa Diocese e as nossas comunidades, guardem fielmente a lei do amor e ensinem os nossos fiéis a viver dela, oremos.",
+          intencao: "Para que a santa Igreja, a nossa Diocese e as suas comunidades, guardem fielmente a lei do amor e ensinem os seus fiéis a viver dela, oremos.",
         ),
         Prece(
           intencao: "Para que todos os responsáveis deste mundo exerçam a autoridade como um serviço e sejam os primeiros a fazer o que legislam, oremos.",
@@ -8686,7 +8686,7 @@ class PrecesData {
           intencao: "Para que os catequistas e evangelizadores se façam tudo para todos, como São Paulo, e não se poupem a trabalhos e canseiras, oremos.",
         ),
         Prece(
-          intencao: "Para que nesta assembleia e na paróquia cada um aprenda a servir todos os outros e a guardar a graça de Deus e a nossa Palavra, oremos.",
+          intencao: "Para que nesta assembleia e na paróquia cada um aprenda a servir todos os outros e a guardar a graça de Deus e a sua Palavra, oremos.",
         ),
       ],
       falaFinal: "",
@@ -8697,7 +8697,7 @@ class PrecesData {
       respostaInicial: "Ouvi-nos, Senhor.",
       preces: [
         Prece(
-          intencao: "Pela Igreja que espera o nosso Senhor e pelo nosso Bispo N., pelos presbíteros e diáconos, que sem fadiga nos repetem “vigiai”, oremos.",
+          intencao: "Pela Igreja que espera o seu Senhor e pelo nosso Bispo N., pelos presbíteros e diáconos, que sem fadiga nos repetem “vigiai”, oremos.",
         ),
         Prece(
           intencao: "Pelos descuidados com o regresso do Senhor, pelos que baixam os braços já sem forças e pelos fiéis acordados e despertos, oremos.",
@@ -8709,24 +8709,24 @@ class PrecesData {
           intencao: "Pelas virgens e pelos monges contemplativos, pelos jovens que se propõem seguir o Senhor e pelas jovens que Lhe entregaram o coração, oremos.",
         ),
         Prece(
-          intencao: "Pelos fiéis que caíram na indiferença, pelos que mantêm as nossas lâmpadas acesas e pelos que despertam a fé dos vacilantes, oremos.",
+          intencao: "Pelos fiéis que caíram na indiferença, pelos que mantêm as suas lâmpadas acesas e pelos que despertam a fé dos vacilantes, oremos.",
         ),
       ],
-      falaFinal: "Senhor, que na nossa infinita sabedoria conheceis a hora de todas as coisas, ouvi as orações da nossa Igreja e fazei que o coração de todos nós Vos deseje mais que a ninguém. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, que na sua infinita sabedoria conheceis a hora de todas as coisas, ouvi as orações da sua Igreja e fazei que o coração de todos nós Vos deseje mais que a ninguém. Por Cristo Senhor nosso.",
     ),
 
     "2026-11-15": PrecesDia(
       falaInicial: "Irmãs e irmãos: O Senhor manda-nos vigiar. Oremos uns pelos outros e por todos, para que os homens vivam dignamente, e digamos (ou: e cantemos), com toda a confiança:",
-      respostaInicial: "Concedei-nos, Senhor, a nossa graça.",
+      respostaInicial: "Concedei-nos, Senhor, a sua graça.",
       preces: [
         Prece(
-          intencao: "Pela Igreja, para que seja fiel em tudo a Cristo, pelos nossos ministros, para que trabalhem com esperança, e pelos leigos, para que ponham os nossos talentos a render, oremos.",
+          intencao: "Pela Igreja, para que seja fiel em tudo a Cristo, pelos seus ministros, para que trabalhem com esperança, e pelos leigos, para que ponham os seus talentos a render, oremos.",
         ),
         Prece(
           intencao: "Pelos que vivem como se o Senhor nunca viesse e pelos que temem que Ele venha a toda a hora, para que permaneçam vigilantes, mas em paz, oremos.",
         ),
         Prece(
-          intencao: "Pelas mães cristãs, para que iluminem os nossos lares, pelos filhos e filhas, para que alegrem nossos pais, e pelos maridos, para que sejam tementes a Deus, oremos.",
+          intencao: "Pelas mães cristãs, para que iluminem os seus lares, pelos filhos e filhas, para que alegrem seus pais, e pelos maridos, para que sejam tementes a Deus, oremos.",
         ),
         Prece(
           intencao: "Por aqueles a quem o Senhor deu muitos dons e por aqueles a quem o Senhor só deu alguns, para que todos os ponham a render, oremos.",
@@ -8735,18 +8735,18 @@ class PrecesData {
           intencao: "Pelos fiéis mais disponíveis desta assembleia e por aqueles que dizem sempre não a tudo, para que recordemos que os talentos são dom de Deus, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, fazei amadurecer em cada homem os frutos da nossa bondade, para que, no último dia, todos possam recebê-los transfigurados. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, nosso Deus, fazei amadurecer em cada homem os frutos da sua bondade, para que, no último dia, todos possam recebê-los transfigurados. Por Cristo Senhor nosso.",
     ),
 
     "2026-11-22": PrecesDia(
       falaInicial: "NOSSO SENHOR JESUS CRISTO, REI DO UNIVERSO Irmãos e irmãs: Oremos pelos mais pobres deste mundo, que têm um lugar privilegiado no coração do Pai, e invoquemo-l’O, por Cristo, Rei do Universo, dizendo (ou: cantando):",
-      respostaInicial: "Senhor, venha a nós o nosso reino.",
+      respostaInicial: "Senhor, venha a nós o seu reino.",
       preces: [
         Prece(
-          intencao: "Pela santa Igreja e por todos os nossos filhos, pelos pobres e por aqueles que os assistem na fome, na doença ou na prisão, oremos.",
+          intencao: "Pela santa Igreja e por todos os seus filhos, pelos pobres e por aqueles que os assistem na fome, na doença ou na prisão, oremos.",
         ),
         Prece(
-          intencao: "Pelos bispos, presbíteros e diáconos e por todos os que, imitando o Bom Pastor, orientam os fiéis para o nosso Reino, oremos.",
+          intencao: "Pelos bispos, presbíteros e diáconos e por todos os que, imitando o Bom Pastor, orientam os fiéis para o seu Reino, oremos.",
         ),
         Prece(
           intencao: "Pelos doentes, prisioneiros e condenados, pelos que esperam ver despontar a salvação, e por todos os moribundos e defuntos, oremos.",
@@ -8758,7 +8758,7 @@ class PrecesData {
           intencao: "Pelos fiéis que vivem à luz do Evangelho, pelos que nunca o descobriram nem viveram e por aqueles que por ele dão a própria vida, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, que nos enviastes o nosso Filho, não para condenar, mas para salvar todos os homens, dai-nos a graça de O reconhecer nos mais pobres e desprezados deste mundo. Por Cristo Senhor nosso.",
+      falaFinal: "Senhor, nosso Deus, que nos enviastes o seu Filho, não para condenar, mas para salvar todos os homens, dai-nos a graça de O reconhecer nos mais pobres e desprezados deste mundo. Por Cristo Senhor nosso.",
     ),
 
     "2026-11-29": PrecesDia(
@@ -8769,16 +8769,16 @@ class PrecesData {
           intencao: "Pelos pastores e fiéis da santa Igreja, para que vivendo dignamente, como em pleno dia, sejam sinal da vinda próxima do Senhor, oremos.",
         ),
         Prece(
-          intencao: "Pelas nações do mundo inteiro e nossos governos, para que, abandonando os caminhos da guerra, convertam as armas em instrumentos de paz, oremos.",
+          intencao: "Pelas nações do mundo inteiro e seus governos, para que, abandonando os caminhos da guerra, convertam as armas em instrumentos de paz, oremos.",
         ),
         Prece(
           intencao: "Por todas as Igrejas e comunidades cristãs, para que se revistam dos sentimentos de Jesus e apressem a reconciliação tão desejada, oremos.",
         ),
         Prece(
-          intencao: "Pelas crianças e jovens dos grupos de catequese, para que em Cristo, Filho de Deus e de Maria, descubram Aquele que dá sentido às nossas vidas, oremos.",
+          intencao: "Pelas crianças e jovens dos grupos de catequese, para que em Cristo, Filho de Deus e de Maria, descubram Aquele que dá sentido às suas vidas, oremos.",
         ),
         Prece(
-          intencao: "Pelos que, nesta comunidade (paroquial) ou em qualquer outra, estão de vela junto aos doentes e aos moribundos, para que o Senhor seja a nossa recompensa, oremos.",
+          intencao: "Pelos que, nesta comunidade (paroquial) ou em qualquer outra, estão de vela junto aos doentes e aos moribundos, para que o Senhor seja a sua recompensa, oremos.",
         ),
       ],
       falaFinal: "Senhor, nosso Deus, não nos deixeis andar sonolentos, no meio das injustiças deste mundo, mas dirigi o nosso coração e o nosso olhar para Aquele que nos vem trazer a paz. Por Cristo Senhor nosso.",
@@ -8792,7 +8792,7 @@ class PrecesData {
           intencao: "Pelo Papa N., e pelos bispos, presbíteros e diáconos, pelos fiéis cristãos de toda a terra e pelos catecúmenos que se abrem à Boa Nova, oremos.",
         ),
         Prece(
-          intencao: "Pelos Judeus e pelos Muçulmanos, pelos profetas que anunciam a Palavra e pelos pecadores que se arrependem dos nossos pecados, oremos.",
+          intencao: "Pelos Judeus e pelos Muçulmanos, pelos profetas que anunciam a Palavra e pelos pecadores que se arrependem dos seus pecados, oremos.",
         ),
         Prece(
           intencao: "Pelos catequistas, pelas crianças e pelos jovens, pelos adultos e pelos animadores dos nossos grupos, e pelos que acolhem os outros à maneira de Cristo, oremos.",
@@ -8804,7 +8804,7 @@ class PrecesData {
           intencao: "Pelos que preparam os caminhos do Senhor, pelos que trabalham pela justiça e a igualdade, por nós próprios e pela nossa conversão, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, que tornais possíveis todas as coisas e quereis instaurar no mundo a paz, dai-nos a graça de viver com alegria a novidade trazida por Jesus Cristo, nosso Filho. Ele que vive e reina por todos os séculos dos séculos.",
+      falaFinal: "Senhor, nosso Deus, que tornais possíveis todas as coisas e quereis instaurar no mundo a paz, dai-nos a graça de viver com alegria a novidade trazida por Jesus Cristo, seu Filho. Ele que vive e reina por todos os séculos dos séculos.",
     ),
 
     "2026-12-13": PrecesDia(
@@ -8812,36 +8812,36 @@ class PrecesData {
       respostaInicial: "Vinde, Senhor, e salvai-nos.",
       preces: [
         Prece(
-          intencao: "Para que na Igreja inteira, nesta Diocese e nas nossas paróquias, se anuncie a Boa Nova a toda a gente, e o Espírito faça florir cada deserto, oremos.",
+          intencao: "Para que na Igreja inteira, nesta Diocese e nas suas paróquias, se anuncie a Boa Nova a toda a gente, e o Espírito faça florir cada deserto, oremos.",
         ),
         Prece(
           intencao: "Para que nos lares e instituições de todo o mundo, haja trabalho, liberdade, pão e paz, e a angústia não perturbe os corações, oremos.",
         ),
         Prece(
-          intencao: "Para que os cegos, os leprosos e os doentes, e os que vivem sem alegria e sem coragem, ponham toda a nossa esperança no Senhor, oremos.",
+          intencao: "Para que os cegos, os leprosos e os doentes, e os que vivem sem alegria e sem coragem, ponham toda a sua esperança no Senhor, oremos.",
         ),
         Prece(
           intencao: "Para que no meio da violência quotidiana, o Espírito faça desabrochar flores de paz e fortaleça todos aqueles que a perderam, oremos.",
         ),
         Prece(
-          intencao: "Para que nesta Paróquia e nos nossos vários grupos, cada um de nós, à maneira de Jesus, sirva os mais pobres e vá em socorro dos maltratados e dos que sofrem, oremos.",
+          intencao: "Para que nesta Paróquia e nos seus vários grupos, cada um de nós, à maneira de Jesus, sirva os mais pobres e vá em socorro dos maltratados e dos que sofrem, oremos.",
         ),
       ],
-      falaFinal: "Senhor, nosso Deus, que nos prometeis a felicidade sem fim, concedei-nos um coração pobre e fazei que a próxima vinda do nosso Filho transforme o mundo com a nossa paz. Ele que vive e reina por todos os séculos dos séculos.",
+      falaFinal: "Senhor, nosso Deus, que nos prometeis a felicidade sem fim, concedei-nos um coração pobre e fazei que a próxima vinda do seu Filho transforme o mundo com a sua paz. Ele que vive e reina por todos os séculos dos séculos.",
     ),
 
     "2026-12-20": PrecesDia(
-      falaInicial: "Caríssimos fiéis: Ao aproximar-se o Natal de Jesus, oremos para que a vinda do Salvador reanime a fé dos nossos irmãos e a esperança daqueles que O procuram, dizendo (ou: cantando):",
+      falaInicial: "Caríssimos fiéis: Ao aproximar-se o Natal de Jesus, oremos para que a vinda do Salvador reanime a fé dos seus irmãos e a esperança daqueles que O procuram, dizendo (ou: cantando):",
       respostaInicial: "Vinde, Senhor Jesus.",
       preces: [
         Prece(
-          intencao: "Pelo Bispo, presbíteros, diáconos e fiéis da nossa diocese, e por todos aqueles que o Senhor chama à santidade, para que o nosso Natal faça deles homens novos, oremos. (ou: oremos por intercessão de Maria).",
+          intencao: "Pelo Bispo, presbíteros, diáconos e fiéis da nossa diocese, e por todos aqueles que o Senhor chama à santidade, para que o seu Natal faça deles homens novos, oremos. (ou: oremos por intercessão de Maria).",
         ),
         Prece(
           intencao: "Pelos homens que recusam os sinais de Deus e pelos que são incapazes de acreditar n’Ele, para que o Príncipe da Paz Se lhes revele, oremos. (ou: oremos por intercessão de Maria).",
         ),
         Prece(
-          intencao: "Pelos doentes, os que estão tristes e os mais pobres, e por quantos lhes estendem as nossas mãos, para que todos acolham Aquele que vai chegar, oremos. (ou: oremos por intercessão de Maria).",
+          intencao: "Pelos doentes, os que estão tristes e os mais pobres, e por quantos lhes estendem as suas mãos, para que todos acolham Aquele que vai chegar, oremos. (ou: oremos por intercessão de Maria).",
         ),
         Prece(
           intencao: "Pelas virgens que se consagram ao Senhor, e pelas esposas que estão prestes a ser mães, para que sejam sempre fiéis à voz de Deus, oremos. (ou: oremos por intercessão de Maria).",
@@ -8864,7 +8864,7 @@ class PrecesData {
           intencao: "Pelos que fazem as leis ou as aprovam, para que aprendam à luz deste Natal a defender e a promover a vida humana, oremos.",
         ),
         Prece(
-          intencao: "Pelas crianças que perderam os nossos pais, para que encontrem a nosso lado quem as ame e lhes fale do Menino e do Natal, oremos.",
+          intencao: "Pelas crianças que perderam os seus pais, para que encontrem a seu lado quem as ame e lhes fale do Menino e do Natal, oremos.",
         ),
         Prece(
           intencao: "Pelos que neste dia estão tristes e sozinhos, para que reconheçam em Jesus, o Salvador, e O adorem como verdadeiro Deus, oremos.",
@@ -8884,10 +8884,10 @@ class PrecesData {
           intencao: "Para que, na Igreja, cresça o clima de família, de paz, de mansidão e de bondade, que Jesus experimentou na Casa de Nazaré, oremos.",
         ),
         Prece(
-          intencao: "Para que em toda a parte se respeite a instituição familiar, na nossa natureza e dignidade, oremos.",
+          intencao: "Para que em toda a parte se respeite a instituição familiar, na sua natureza e dignidade, oremos.",
         ),
         Prece(
-          intencao: "Para que em todas as famílias do mundo os nossos membros saibam perdoar-se mutuamente, se algum tiver razões de queixa contra outro, oremos.",
+          intencao: "Para que em todas as famílias do mundo os seus membros saibam perdoar-se mutuamente, se algum tiver razões de queixa contra outro, oremos.",
         ),
         Prece(
           intencao: "Para que a luz de Cristo ilumine os casais novos, reanime os que arrefeceram no amor e brilhe como o sol sobre os que se amam, oremos.",
