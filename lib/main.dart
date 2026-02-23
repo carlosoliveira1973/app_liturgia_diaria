@@ -191,11 +191,82 @@ class _HomePageState extends State<HomePage> {
       case 'verde':
         return Colors.green.shade800;
       case 'rosa':
-        return Colors.pink.shade700;
+        return Colors.pink.shade200;
       case 'preto':
         return Colors.black;
       default:
         return Colors.brown.shade800;
+    }
+  }
+
+  // ===== Ano Litúrgico (Ciclo Dominical A/B/C) =====
+  // Regra prática:
+  // - O Ano Litúrgico (A/B/C) começa no 1º Domingo do Advento (entre 27/11 e 03/12).
+  // - Ex.: Advento 2025 até antes do Advento 2026 = Ano A.
+  DateTime _inicioAdvento(int year) {
+    final startWindow = DateTime(year, 11, 27);
+    final endWindow = DateTime(year, 12, 3);
+
+    for (var d = startWindow;
+    !d.isAfter(endWindow);
+    d = d.add(const Duration(days: 1))) {
+      if (d.weekday == DateTime.sunday) return d;
+    }
+
+    // Fallback (não deve acontecer)
+    return endWindow;
+  }
+
+  DateTime? _parseDateFlexible(String? value) {
+    if (value == null) return null;
+
+    final s = value.trim();
+    if (s.isEmpty) return null;
+
+    // 1) ISO 8601 (2026-02-23 ou 2026-02-23T...)
+    final iso = DateTime.tryParse(s);
+    if (iso != null) return iso;
+
+    // 2) dd/MM/yyyy ou dd-MM-yyyy
+    final br = RegExp(r'^(\d{2})[\/\-](\d{2})[\/\-](\d{4})$').firstMatch(s);
+    if (br != null) {
+      final day = int.parse(br.group(1)!);
+      final month = int.parse(br.group(2)!);
+      final year = int.parse(br.group(3)!);
+      return DateTime(year, month, day);
+    }
+
+    // 3) yyyy/MM/dd ou yyyy-MM-dd (caso venha com barras)
+    final ymd = RegExp(r'^(\d{4})[\/\-](\d{2})[\/\-](\d{2})$').firstMatch(s);
+    if (ymd != null) {
+      final year = int.parse(ymd.group(1)!);
+      final month = int.parse(ymd.group(2)!);
+      final day = int.parse(ymd.group(3)!);
+      return DateTime(year, month, day);
+    }
+
+    return null;
+  }
+
+  String _anoLiturgicoABC(String? apiDate) {
+    final date = _parseDateFlexible(apiDate);
+    if (date == null) return "";
+
+    // Determina o "ano de início" do ciclo, baseado no Advento
+    final inicioAdventoDoAno = _inicioAdvento(date.year);
+    final startYear = date.isBefore(inicioAdventoDoAno) ? date.year - 1 : date.year;
+
+    // Mapeamento correto:
+    // startYear 2025 => Ano A
+    // startYear 2026 => Ano B
+    // startYear 2027 => Ano C
+    switch (startYear % 3) {
+      case 0:
+        return "A";
+      case 1:
+        return "B";
+      default:
+        return "C";
     }
   }
 
@@ -386,7 +457,7 @@ class _HomePageState extends State<HomePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    snapshot.hasData ? snapshot.data!.titulo : "Carregando...",
+                    snapshot.hasData ? "${snapshot.data!.titulo} - Ano ${_anoLiturgicoABC(snapshot.data!.data)}" : "Carregando...",
                     style: const TextStyle(
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
@@ -527,7 +598,10 @@ class _HomePageState extends State<HomePage> {
                         _buildAntifonaSection("Antífona de Entrada", liturgia.antifonas.entrada),
                         _buildRichTextSection("Acolhida", MissaFixa.saudacao),
                         _buildRichTextSection("Ato Penitencial", MissaFixa.atoPenitencial),
-                        if (OrdinarioRules.showGloria(rankDoDia))
+                        if (OrdinarioRules.showGloria(rankDoDia) &&
+                            !liturgia.cor.toLowerCase().trim().contains('roxo') &&
+                            !liturgia.cor.toLowerCase().trim().contains('violeta') &&
+                            !liturgia.cor.toLowerCase().trim().contains('rosa'))
                           _buildRichTextSection("Hino de Louvor", MissaFixa.gloria),
                         _buildRichTextSection(
                           "Oração da Coleta",

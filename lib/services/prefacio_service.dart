@@ -11,7 +11,7 @@ class PrefacioService {
     final isDomingo = data.weekday == DateTime.sunday;
 
     // ROXO: Advento/Quaresma
-    if (c.contains('roxo') || c.contains('violeta')) {
+    if (c.contains('roxo') || c.contains('violeta') || c.contains('rosa')) {
       return PrefacioId.quaresmaV; // (por enquanto) — depois você separa Advento/Quaresma
     }
 
@@ -59,4 +59,7 @@ class PrefacioService {
 
     return PrefacioId.comum;
   }
+
+
+
 }

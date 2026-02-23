@@ -180,7 +180,7 @@ Mistério da fé para a salvação do mundo!
 
 **T: Concedei-lhes, ó Senhor, a luz eterna!**
 
-**Pe:** Enfim, nós vos pedimos, tende piedade de todos nós e dai-nos participar da vida eterna, com a Virgem Maria, Mãe de Deus, São José, seu esposo, os Apóstolos, (santo/a do dia ou padroeiro/a) e todos os Santos que neste mundo viveram na vossa amizade, a fim de vos louvarmos e glorificarmos une as mãos por Jesus Cristo, vosso Filho.
+**Pe:** Enfim, nós vos pedimos, tende piedade de todos nós e dai-nos participar da vida eterna, com a Virgem Maria, Mãe de Deus, São José, seu esposo, os Apóstolos, (santo/a do dia ou padroeiro/a) e todos os Santos que neste mundo viveram na vossa amizade, a fim de vos louvarmos e glorificarmos por Jesus Cristo, vosso Filho.
 
 **Pe:** Por Cristo, com Cristo, e em Cristo, a vós, Deus Pai todo-poderoso, na unidade do Espírito Santo, toda honra e toda glória, por todos os séculos dos séculos.
 
