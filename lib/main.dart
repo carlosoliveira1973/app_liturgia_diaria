@@ -457,7 +457,7 @@ class _HomePageState extends State<HomePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    snapshot.hasData ? "${snapshot.data!.titulo} - Ano ${_anoLiturgicoABC(snapshot.data!.data)}" : "Carregando...",
+                    snapshot.hasData ? "${snapshot.data!.titulo}${_isSundayFromApiDate(snapshot.data!.data) ? " — Ano ${_anoLiturgicoABC(snapshot.data!.data)}" : ""}" : "Carregando...",
                     style: const TextStyle(
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
@@ -1502,6 +1502,27 @@ class _HomePageState extends State<HomePage> {
       }).toList(),
     );
   }
+}
+
+
+bool _isSundayFromApiDate(String? apiDate) {
+  if (apiDate == null) return false;
+  final s = apiDate.trim();
+  if (s.isEmpty) return false;
+
+  DateTime? date = DateTime.tryParse(s);
+
+  if (date == null) {
+    final br = RegExp(r'^(\d{2})[\/\-](\d{2})[\/\-](\d{4})$').firstMatch(s);
+    if (br != null) {
+      final day = int.parse(br.group(1)!);
+      final month = int.parse(br.group(2)!);
+      final year = int.parse(br.group(3)!);
+      date = DateTime(year, month, day);
+    }
+  }
+
+  return date != null && date.weekday == DateTime.sunday;
 }
 
 
