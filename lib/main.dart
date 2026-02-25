@@ -5,6 +5,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'liturgia_model.dart';
 import 'liturgia_service.dart';
 import 'oracoes_data.dart';
+import 'aclamacoes_evangelho_data.dart';
 import 'missa_fixa_data.dart';
 import 'preces_data.dart';
 import 'oracao_eucaristica_template.dart';
@@ -268,6 +269,85 @@ class _HomePageState extends State<HomePage> {
       default:
         return "C";
     }
+  }
+
+
+  String _formatDateKey(DateTime d) {
+    final y = d.year.toString().padLeft(4, '0');
+    final m = d.month.toString().padLeft(2, '0');
+    final day = d.day.toString().padLeft(2, '0');
+    return "$y-$m-$day";
+  }
+
+  Widget _buildAclamacaoAoEvangelho() {
+    final key = _formatDateKey(_selectedDate);
+    final a = aclamacoesEvangelhoPorData[key];
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Align(
+          alignment: Alignment.centerLeft,
+          child: Text(
+            "Aclamação ao Evangelho",
+            style: TextStyle(
+              color: Colors.red,
+              fontWeight: FontWeight.bold,
+              fontSize: 13,
+            ),
+          ),
+        ),
+        const SizedBox(height: 4),
+        if (a == null || (a.refrao.trim().isEmpty && a.verso.trim().isEmpty))
+          const Text(
+            "Aclamação ao Evangelho não disponível para esta data.",
+            style: TextStyle(
+              fontFamily: 'Georgia',
+              fontStyle: FontStyle.italic,
+              color: Colors.black54,
+              height: 1.35,
+            ),
+          )
+        else ...[
+          if (a.refrao.trim().isNotEmpty)
+            Text(
+              a.refrao.trim(),
+              style: TextStyle(
+                fontFamily: 'Georgia',
+                fontSize: _baseFontSize,
+                fontWeight: FontWeight.bold,
+                color: Colors.black87,
+                height: 1.35,
+              ),
+            ),
+          if (a.verso.trim().isNotEmpty) ...[
+            const SizedBox(height: 6),
+            Text(
+              a.verso.trim(),
+              style: TextStyle(
+                fontFamily: 'Georgia',
+                fontSize: _baseFontSize,
+                fontStyle: FontStyle.italic,
+                color: Colors.black87,
+                height: 1.35,
+              ),
+            ),
+          ],
+          if (a.referencia.trim().isNotEmpty) ...[
+            const SizedBox(height: 6),
+            Text(
+              a.referencia.trim(),
+              style: const TextStyle(
+                fontStyle: FontStyle.italic,
+                color: Colors.black54,
+                height: 1.2,
+              ),
+            ),
+          ],
+        ],
+        const SizedBox(height: 12),
+      ],
+    );
   }
 
   String _formatarDataPtBr(String isoDate) {
@@ -1428,6 +1508,7 @@ class _HomePageState extends State<HomePage> {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            if (isEvangelho) _buildAclamacaoAoEvangelho(),
             if (item.titulo.trim().isNotEmpty) ...[
               const SizedBox(height: 4),
               Text(
