@@ -6,6 +6,7 @@ import 'liturgia_model.dart';
 import 'liturgia_service.dart';
 import 'oracoes_data.dart';
 import 'aclamacoes_evangelho_data.dart';
+import 'screens/sobre_page.dart';
 import 'missa_fixa_data.dart';
 import 'preces_data.dart';
 import 'oracao_eucaristica_template.dart';
@@ -597,6 +598,15 @@ class _HomePageState extends State<HomePage> {
                       _selectedDate = picked;
                       _reload();
                     }
+                  },
+                ),
+                IconButton(
+                  tooltip: "Sobre",
+                  icon: const Icon(Icons.info_outline),
+                  onPressed: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (_) => const SobrePage()),
+                    );
                   },
                 ),
               ],
