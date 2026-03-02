@@ -17,6 +17,9 @@ class PrefacioService {
 
     // VERMELHO: Mártires / Apóstolos / Espírito Santo
     if (c.contains('vermelho')) {
+
+      if (nome.contains('ramos')) return PrefacioId.ramos;
+
       if (nome.contains('pentecost') ||
           nome.contains('espírito santo') ||
           nome.contains('espirito santo')) {
