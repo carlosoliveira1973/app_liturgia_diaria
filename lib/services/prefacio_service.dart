@@ -40,10 +40,16 @@ class PrefacioService {
     // BRANCO/DOURADO: Natal/Páscoa/Maria/Solenidades
     if (c.contains('branco') || c.contains('dourado')) {
       if (nome.contains('natal')) return PrefacioId.natal;
+
       if (nome.contains('páscoa') || nome.contains('pascoa')) return PrefacioId.pascal;
+
+      if (nome.contains('jose') || nome.contains('josé') || nome.contains('esposo da bem')) return PrefacioId.saojose;
 
       if (nome.contains('nossa senhora') ||
           nome.contains('virgem maria') ||
+          nome.contains('santa maria') ||
+          nome.contains('apresentação do senhor') ||
+          nome.contains('anunciação do senhor') ||
           nome.contains('imacul') ||
           nome.contains('assun')) {
         return PrefacioId.marianoIV;

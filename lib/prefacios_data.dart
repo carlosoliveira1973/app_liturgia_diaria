@@ -8,7 +8,8 @@ enum PrefacioId {
   martires,
   espiritoSanto,
   comum,
-  ramos
+  ramos,
+  saojose
 }
 
 class PrefaciosData {
@@ -134,6 +135,11 @@ Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempr
 
     PrefacioId.ramos: """
 Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus todo-poderoso. Por Cristo, nosso Senhor. Inocente, dignou-se sofrer pelos pecadores. Santíssimo, quis ser condenado a morrer pelos criminosos. Sua morte apagou nossos pecados e sua ressurreição trouxe-nos a justificação. Por isso, com todos os anjos, nós vos louvamos em alegre celebração, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.saojose: """
+Na Verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus todo-poderoso, e na solenidade de São José, louvar, bendizer e proclamar vossa grandeza. Ele, homem justo, dado por esposo à Virgem Mãe de Deus, servo fiel e prudente, foi posto à frente da vossa família para cuidar como pai do vosso Filho Unigênito, concebido pelo poder do Espírito Santo, Jesus Cristo, Senhor nosso. Por ele, os Anjos vos louvam, as Dominações vos adoram, as Potestades vos referenciam; os céus e as Forças celestes, com os beatos Serafins, unidos e exultantes vos celebram. Concedei, também a nós, associar-nos a seus louvores, cantando (dizendo) a uma só voz:
 
 """,
   };
