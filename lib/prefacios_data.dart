@@ -9,7 +9,22 @@ enum PrefacioId {
   espiritoSanto,
   comum,
   ramos,
-  saojose
+  saojose,
+  ascensao,
+  pentecostes,
+  trindade,
+  santos,
+  cristorei,
+  advento,
+  sagradafamilia,
+  defuntos,
+  santacruz,
+  joaobatista,
+  anunciacaosenhor,
+  epifaniasenhor,
+  ceiasenhor,
+  sabadosanto,
+  oitavasenhor
 }
 
 class PrefaciosData {
@@ -33,6 +48,12 @@ class PrefaciosData {
   // Textos “do meio” (o prefácio próprio)
   static const Map<PrefacioId, String> _textos = {
     PrefacioId.comumIII: """
+(Prefácio comum I [O Mistério Pascal e o Povo de Deus])
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso, por Cristo, Senhor nosso. Por seu mistério pascal ele realizou a obra admirável de nos chamar do pecado e da escravidão da morte à glória de sermos agora raça escolhida, sacerdócio régio, nação santa e povo que vos pertence, para anunciarmos por toda parte os vossos grandes feitos, ó Pai, que nos chamastes das trevas à vossa luz maravilhosa. Por isso, com os Anjos e Arcanjos, os Tronos e as Dominações e todos os coros celestes, entoamos o hino da vossa glória, cantando (dizendo) a uma só voz:
+
+(Prefácio comum II [O Mistério da Salvação])
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso, por Cristo, Senhor nosso. Compadecendo-se da fraqueza humana, ele se dignou nascer da Virgem Maria. Morrendo na cruz, livrou-nos da morte eterna e, ressurgindo dos mortos, deu-nos a vida para sempre. Por isso, com os Anjos e Arcanjos, os Tronos e as Dominações e todos os coros celestes, entoamos o hino da vossa glória, cantando (dizendo) a uma só voz:
+
 (Prefácio comum III [A Salvação da Humanidade por Jesus Cristo Feito Homem])
 Na verdade, é digno e justo e necessário, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Nós reconhecemos que pertence à vossa imensa glória socorrer a nós mortais com a vossa divindade e servir-vos da nossa condição mortal como remédio para nos libertar da morte e abrir-nos o caminho da salvação, por Cristo, Senhor nosso. Por ele  os coros dos Anjos adoram a vossa grandeza e se alegrem eternamente na vossa presença. Concedei, também a nós, associar-nos a seus louvores, cantando (dizendo) a uma só voz:
 
@@ -131,6 +152,12 @@ Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempr
 (Prefácio Comum I [A Restauração Universal em Cristo])
 Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso, por Cristo, Senhor nosso. Nele quisestes renovar todas as coisas, e a nós destes participar da sua plenitude. Sendo de condição divina, despojou-se da sua glória e, pelo sangue derramado na cruz, trouxe a paz ao mundo inteiro; exaltado acima de todas as criaturas, tornou-se a fonte da salvação eterna para aqueles que lhe obedecem. Por isso, com os Anjos e Arcanjos, os Tronos e as Dominações e todos os coros celestes, entoamos o hino da vossa glória, cantando (dizendo) a uma só voz:
 
+(Prefácio Comum II [A Salvação por Cristo])
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Em vossa bondade criastes o homem e a mulher, e, com justiça condenados, em vossa misericórdia os salvastes, por Cristo, Senhor nosso. Por ele, os anjos e arcanjos e todas as forças celestes proclamam com alegria a vossa glória. Concedei também a nós associar-nos a seus louvores, cantando (dizendo) a uma só voz:
+
+(Prefácio Comum III [Louvor a Deus pela criação e salvação do gênero humano])
+Na Verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Pois, por meio vosso Filho muito amado, sois não somente o criador do gênero humano, mas também o autor misericordioso da sua redenção. Por isso, com razão vos servem todas as criaturas, os redimidos vos prestam o devido louvor e unânimes vos bendizem os vossos anjos e Santos. Também nós vos celebramos com alegria e cantamos (dizemos) sem cessar a uma só voz:
+
 """,
 
     PrefacioId.ramos: """
@@ -142,6 +169,105 @@ Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempr
 Na Verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus todo-poderoso, e na solenidade de São José, louvar, bendizer e proclamar vossa grandeza. Ele, homem justo, dado por esposo à Virgem Mãe de Deus, servo fiel e prudente, foi posto à frente da vossa família para cuidar como pai do vosso Filho Unigênito, concebido pelo poder do Espírito Santo, Jesus Cristo, Senhor nosso. Por ele, os Anjos vos louvam, as Dominações vos adoram, as Potestades vos referenciam; os céus e as Forças celestes, com os beatos Serafins, unidos e exultantes vos celebram. Concedei, também a nós, associar-nos a seus louvores, cantando (dizendo) a uma só voz:
 
 """,
+
+    PrefacioId.ascensao: """
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Pois o Senhor Jesus, Rei da glória, vencedor do pecado e da morte, ante os Anjos maravilhados, subiu hoje ao mais alto dos céus, constituído Mediador entre Deus e a humanidade, Juiz do mundo e Senhor do universo. Ele, nossa cabeça e princípio, nos precedeu, não para afastar-se de nossa humildade, mas para dar a nós, membros do seu corpo, a confiança de um dia o seguirmos. Por isso, transbordando de alegria pascal, exulta a criação por toda a terra; também as Virtudes celestes e as Potestades angélicas proclamam um hino à vossa glória, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.pentecostes: """
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Pois o Senhor Jesus, Rei da glória, vencedor do pecado e da morte, ante os Anjos maravilhados, subiu hoje ao mais alto dos céus, constituído Mediador entre Deus e a humanidade, Juiz do mundo e Senhor do universo. Ele, nossa cabeça e princípio, nos precedeu, não para afastar-se de nossa humildade, mas para dar a nós, membros do seu corpo, a confiança de um dia o seguirmos. Por isso, transbordando de alegria pascal, exulta a criação por toda a terra; também as Virtudes celestes e as Potestades angélicas proclamam um hino à vossa glória, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.trindade: """
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Com vosso Filho Unigênito e o Espírito Santo, sois um só Deus e um só Senhor. Não uma única pessoa, mas três pessoas num só Deus. Tudo o que revelastes e nós cremos a respeito de vossa glória, atribuímos sem diferença ao Filho e ao Espírito Santo. Portanto, proclamando nossa fé em vossa verdadeira e eterna divindade, adoramos cada uma das três pessoas, na mesma natureza e igual majestade. Por isso vos louvam os anjos e os arcanjos, os Querubins e os Serafins que não cessam de proclamar todos os dias, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.santos: """
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Vós nos concedei hoje festejar vossa cidade, a Jerusalém do alto, nossa mãe, onde a assembleia de nossos irmãos e irmãs canta eternamente o vosso louvor. Para esta cidade, peregrinos e guiados pela fé, nos apressamos jubilosos, compartilhando a alegria dos membros mais ilustres da Igreja, que nos concedeis como exemplo e auxílio para a nossa fragilidade. Por isso, em união com os anjos e todos os santos nós vos glorificamos, cantando (dizendo) o vosso louvor a uma só voz:
+
+""",
+
+    PrefacioId.cristorei: """
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Com óleo de exultação ungistes vosso Filho Unigênito, nosso Senhor Jesus Cristo, Sacerdote eterno e Rei do universo. Oferecendo-se a si mesmo no altar da cruz como vítima pura e pacífica, realizou o mistério da redenção humana. Depois de ter submetido ao seu poder todas as criaturas, entregará à vossa imensa majestade um reino eterno e universal: reino da verdade e da vida, reino da santidade e da graça, reino de justiça, do amor e da paz. Por isso, com os Anjos e os Arcanjos, os Tronos e as Dominações e todos os coros celestes, proclamamos o hino da  vossa glória, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.advento: """
+(Prefácio do Advento I [As duas vindas de Cristo])
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso, por Cristo, Senhor nosso. Revestido de nossa fragilidade, ele veio a primeira vez para realizar seu eterno plano de amor e abri-nos o caminho da salvação. Revestido de sua glória, ele virá uma segunda vez para conceder-nos em plenitude os bens prometidos que hoje vigilantes esperamos. Por isso com os Anjos e Arcanjos, os Tronos e as Dominações e todos os coros celestes entoamos o hino da vossa glória, cantando (dizendo) a uma só voz:
+
+(Prefácio do Advento I-A [Cristo, Senhor e Juiz da História])
+Na verdade, é digno e justo, é nosso dever e salvação louvar-vos e bendizer-vos, Senhor, Pai santo, Deus eterno e todo-poderoso, princípio e fim de todas as coisas. Vós preferistes ocultar o dia e a hora em que Cristo, vosso Filho, Senhor e Juiz da História, aparecerá sobre as nuvens do céu, revestido de poder e majestade. Naquele tremendo e glorioso dia, passará o mundo presente e surgirá novo céu e nova terra. Agora e em todos os tempos, ele vem ao nosso encontro, presente em cada pessoa humana, para que o acolhamos na fé e o testemunhemos na caridade, enquanto esperamos a feliz realização do seu Reino. Por isso, aguardando sua vinda gloriosa, nós vos louvamos, unidos aos Anjos e Santos, cantando (dizendo) a uma só voz:
+
+(Prefácio do Advento II [A dupla espera de Cristo])
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso, por Cristo, Senhor nosso. Foi ele que os profetas predisseram, a Virgem esperou com amor de mãe, João Batista anunciou estar próximo e mostrou presente no mundo. O próprio Senhor nos dá a alegria de nos prepararmos desde agora para o mistério de seu Natal, a fim de encontrar-nos vigilantes na oração e celebrando exultantes os seus louvores. Por isso, com os Anjos e Arcanjos, os Tronos e as Dominações e todos os coros celestes entoamos o hino da vossa glória, cantando (dizendo) a uma só voz:
+
+(Prefácio do Advento II-A [Maria, a nova Eva])
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso, por Cristo, Senhor nosso. Nós vos louvamos, bendizemos e glorificamos pelo mistério da Virgem Maria, Mãe de Deus. Do antigo adversário nos veio a ruína, mas do seio virginal da Filha de Sião germinou aquele que nos alimenta com o pão do céu, e brotou para todo o gênero humano a salvação e a paz. Em Maria, é-nos dada de novo a graça que por Eva tínhamos perdido. Em Maria, mãe de todos os seres humanos, a maternidade, livre do pecado e da morte, se abre para uma nova vida. Se grande era a nossa culpa, bem maior se apresenta a divina misericórdia em Jesus Cristo, nosso Salvador. Por isso, enquanto esperamos a sua chegada, unidos aos Anjos e a todos os Santos, cheios de esperança e alegria, nós vos louvamos, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.sagradafamilia: """
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. No mistério da encarnação de vosso Filho, nova luz da vossa glória brilhou para nós. E, reconhecendo a Jesus como Deus visível a nossos olhos, aprendemos a amar nele a divindade que não vemos. Por isso, com os Anjos e Arcanjos, os Tronos e as Dominações e todos os coros celestes entoamos o hino da vossa glória, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.santacruz: """
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Pusestes no lenho da cruz a salvação do gênero humano, para que, onde a morte teve origem, aí a vida ressurgisse; e o que vencera na árvore do paraíso, na árvore da cruz fosse vencido, por Cristo, Senhor nosso. Por ele, os Anjos vos louvam, as Dominações vos adoram, as Potestades vos reverenciam; os céus e as Forças celestes, com os beatos Serafins, unidos e exultantes vos celebram. Concedei também a nós associar-nos a seus louvores, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.defuntos: """
+(Prefácio dos Defuntos I [A Esperança da Ressurreição em Cristo])
+Na Verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso, por Cristo, Senhor nosso. Nele brilha para nós a esperança da feliz ressurreição; e se a certeza da morte entristece, conforta-nos a promessa da futura imortalidade. Senhor, para os que creem em vós, a vida não é tirada, mas transformada e, desfeita esta morada terrestre, nos é dada uma habitação eterna no céu. Por isso, com os Anjos e Arcanjos, os Tronos e as Dominações e todos os coros celestes, entoamos o hino da vossa glória, cantando (dizendo) a uma só voz:
+
+(Prefácio dos Defuntos II [Morte de Cristo, Vida do Cristão])
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso, por Cristo, Senhor nosso. Um por todos, ele aceitou morrer na cruz para nos livrar a todos da morte. Entregou de boa vontade sua vida, para que pudéssemos viver eternamente para vós. Por isso, unidos aos Anjos vos louvamos com alegria, cantando (dizendo) a uma só voz:
+
+(Prefácio dos Defuntos III [Cristo, Salvação e Vida])
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso, por Cristo, Senhor nosso. Ele é a salvação do mundo, a vida da humanidade, a ressurreição dos mortos. Por ele os coros dos Anjos adoram a vossa grandeza e se alegram eternamente na vossa presença. Concedei-nos, também a nós, associar-nos a seus louvores, cantando (dizendo) a uma só voz:
+
+(Prefácio dos Defuntos IV [Da Vida Terrena à Glória do Céu])
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Vosso poder nos chamou à vida, vossa providência, nos conduz; por vossa ordem na terra, da qual fomos tirados, somos absolvidos da lei do pecado e, redimidos pela morte do vosso Filho, despertaremos, ao vosso chamado, para termos parte na glória da sua ressurreição. Por isso, com os Anjos e a multidão dos Santos, vos entoamos um hino de louvor, cantando (dizendo) a uma só voz:
+
+(Prefácio dos Defuntos V [Nossa Ressurreição pela Vitória de Cristo])
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Pois, embora mereçamos morrer, por vossa graça e amor de Pai nós, os derrotados pela morte por causa do pecado, somos redimidos pela vitória de Cristo e com ele chamados de volta à vida. Por isso, com os Anjos e Santos do céu, nós vos celebramos sem cessar aqui na terra, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.joaobatista: """
+Na Verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Proclamamos hoje as maravilhas que operastes em São João Batista, Precursor de vosso Filho e Senhor nosso, consagrado como o maior entre os nascidos de mulher. Ainda no seio materno, ele exultou com a chegada do Salvador da humanidade e seu nascimento trouxe grande alegria. Foi o único dos profetas que mostrou o Cordeiro redentor. Batizou o próprio autor do batismo nas águas assim santificadas e, derramando o seu sangue, mereceu dar o perfeito testemunho de Cristo. Por isso, unidos aos anjos e a todos os santos, nós vos aclamamos jubilosos, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.anunciacaosenhor: """
+Na Verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Proclamamos hoje as maravilhas que operastes em São João Batista, Precursor de vosso Filho e Senhor nosso, consagrado como o maior entre os nascidos de mulher. Ainda no seio materno, ele exultou com a chegada do Salvador da humanidade e seu nascimento trouxe grande alegria. Foi o único dos profetas que mostrou o Cordeiro redentor. Batizou o próprio autor do batismo nas águas assim santificadas e, derramando o seu sangue, mereceu dar o perfeito testemunho de Cristo. Por isso, unidos aos anjos e a todos os santos, nós vos aclamamos jubilosos, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.epifaniasenhor: """
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso. Pois, em Cristo, para iluminar todos os povos, revelastes hoje o mistério da nossa salvação; quando ele se manifestou em nossa carne mortal, vós nos recriastes no novo esplendor da sua imortalidade. Por isso, com os Anjos e Arcanjos, os Tronos e as Dominações e todos os coros celestes entoamos o hino da vossa glória, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.ceiasenhor: """
+Na verdade, é digno e justo, é nosso dever e salvação dar-vos graças, sempre e em todo lugar, Senhor, Pai santo, Deus eterno e todo-poderoso, por Cristo, Senhor nosso. Sacerdote verdadeiro e eterno, ao instituir o rito do sacrifício perene, ele se ofereceu a vós por primeiro como vítima de salvação, e nos mandou perpetuar a oferta em sua memória. Seu corpo, por nós imolado, é alimento que nos dá força; seu sangue, por nós derramado, é bebida que nos purifica. Por isso, com os Anjos e Arcanjos, os Tronos e as Dominações e todos os coros celestes, entoamos o hino da vossa glória, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.sabadosanto: """
+Na verdade, é digno e justo, é nosso dever e salvação proclamar a vossa glória, ó Pai, em todo tempo, mas, com maior júbilo, louvar-vos nesta noite, porque Cristo, nossa Páscoa, foi imolado. É ele o verdadeiro Cordeiro, que tirou o pecado do mundo; morrendo, destruiu a nossa morte e, ressurgindo, restaurou a vida. Por isso, transbordando de alegria pascal, exulta a criação por toda a terra; também as Virtudes celestes e as Potestades angélicas proclamam um hino à vossa glória, cantando (dizendo) a uma só voz:
+
+""",
+
+    PrefacioId.oitavasenhor: """
+Na verdade, é digno e justo, é nosso dever e salvação proclamar a vossa glória, ó Pai, em todo tempo, mas, com maior júbilo, louvar-vos neste dia (neste tempo), porque Cristo, nossa Páscoa, foi imolado. É ele o verdadeiro Cordeiro, que tirou o pecado do mundo; morrendo, destruiu a nossa morte e, ressurgindo, restaurou a vida. Por isso, transbordando de alegria pascal, exulta a criação por toda a terra; também as Virtudes celestes e as Potestades angélicas proclamam um hino à vossa glória, cantando (dizendo) a uma só voz:
+
+""",
+
   };
 
   static String montar(PrefacioId id) {
