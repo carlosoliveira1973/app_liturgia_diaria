@@ -3,12 +3,14 @@ class LeituraItem {
   final String referencia;
   final String texto;
   final String? refrao;
+  final String? tipo;
 
   LeituraItem({
     required this.titulo,
     required this.referencia,
     required this.texto,
     this.refrao,
+    this.tipo,
   });
 
   factory LeituraItem.fromJson(Map<String, dynamic> json) {
@@ -17,6 +19,24 @@ class LeituraItem {
       referencia: json['referencia'] ?? '',
       texto: json['texto'] ?? '',
       refrao: json['refrao'],
+      tipo: json['tipo'],
+    );
+  }
+}
+
+class OracaoExtra {
+  final String titulo;
+  final String texto;
+
+  OracaoExtra({
+    required this.titulo,
+    required this.texto,
+  });
+
+  factory OracaoExtra.fromJson(Map<String, dynamic> json) {
+    return OracaoExtra(
+      titulo: json['titulo'] ?? '',
+      texto: json['texto'] ?? '',
     );
   }
 }
@@ -25,23 +45,30 @@ class Oracoes {
   final String coleta;
   final String oferendas;
   final String comunhao;
+  final List<OracaoExtra> extras;
 
   Oracoes({
     required this.coleta,
     required this.oferendas,
     required this.comunhao,
+    required this.extras,
   });
 
   factory Oracoes.fromJson(Map<String, dynamic> json) {
+    List<OracaoExtra> parseExtras(dynamic list) {
+      if (list == null || list is! List) return [];
+      return list.map((e) => OracaoExtra.fromJson(e)).toList();
+    }
+
     return Oracoes(
       coleta: json['coleta'] ?? '',
       oferendas: json['oferendas'] ?? '',
       comunhao: json['comunhao'] ?? '',
+      extras: parseExtras(json['extras']),
     );
   }
 }
 
-/// Antífonas vindas da API v2: antifonas.entrada / antifonas.comunhao
 class Antifonas {
   final String entrada;
   final String comunhao;
@@ -68,17 +95,16 @@ class LiturgiaDiaria {
   final String santo;
 
   final Oracoes oracoes;
-
-  /// Antífonas do dia (entrada e comunhão)
   final Antifonas antifonas;
 
-  /// Número romano (ex.: "I", "II", "III"...)
   final String oracaoEucaristica;
 
   final List<LeituraItem> primeiraLeitura;
   final List<LeituraItem> segundaLeitura;
   final List<LeituraItem> salmo;
   final List<LeituraItem> evangelho;
+
+  final List<LeituraItem> extrasLeituras;
 
   LiturgiaDiaria({
     required this.data,
@@ -92,6 +118,7 @@ class LiturgiaDiaria {
     required this.segundaLeitura,
     required this.salmo,
     required this.evangelho,
+    required this.extrasLeituras,
   });
 
   factory LiturgiaDiaria.fromJson(Map<String, dynamic> json) {
@@ -109,12 +136,12 @@ class LiturgiaDiaria {
       santo: json['santo'] ?? '',
       oracoes: Oracoes.fromJson(json['oracoes'] ?? {}),
       antifonas: Antifonas.fromJson(json['antifonas'] ?? {}),
-      // Se não existir, mantém "II" por padrão
       oracaoEucaristica: json['oracao_eucaristica']?.toString() ?? 'II',
       primeiraLeitura: parseList(leituras['primeiraLeitura']),
       segundaLeitura: parseList(leituras['segundaLeitura']),
       salmo: parseList(leituras['salmo']),
       evangelho: parseList(leituras['evangelho']),
+      extrasLeituras: parseList(leituras['extras']),
     );
   }
 }

@@ -201,6 +201,31 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
+  String _toRoman(int number) {
+    const romanMap = {
+      1: "I",
+      2: "II",
+      3: "III",
+      4: "IV",
+      5: "V",
+      6: "VI",
+      7: "VII",
+      8: "VIII",
+      9: "IX",
+      10: "X"
+    };
+
+    return romanMap[number] ?? number.toString();
+  }
+
+  String _formatarExulte(String texto) {
+    return texto
+        .replaceAll("– Ele está no meio de nós.", "**– Ele está no meio de nós.**")
+        .replaceAll("– O nosso coração está em Deus.", "**– O nosso coração está em Deus.**")
+        .replaceAll("– É nosso dever e nossa salvação.", "**– É nosso dever e nossa salvação.**")
+        .replaceAll("AS: Amém", "**AS: Amém**");
+  }
+
   // ===== Ano Litúrgico (Ciclo Dominical A/B/C) =====
   // Regra prática:
   // - O Ano Litúrgico (A/B/C) começa no 1º Domingo do Advento (entre 27/11 e 03/12).
@@ -647,8 +672,17 @@ class _HomePageState extends State<HomePage> {
 
   // ---------------- MISSA PREMIUM (índice fixo) ----------------
   Widget _buildMissaTab(LiturgiaDiaria liturgia, String corLiturgica, Color colorLiturgico) {
-    final LiturgicalRank rankDoDia = CalendarioLiturgicoTemplateData.obterRank(_selectedDate);
 
+    final bool isVigiliaPascal =
+        liturgia.titulo.toLowerCase().contains("sábado santo") ||
+        liturgia.titulo.toLowerCase().contains("sabado santo") ||
+        liturgia.titulo.toLowerCase().contains("vigilia pascal") ||
+        liturgia.titulo.toLowerCase().contains("vigília pascal");
+
+    final extrasLeituras = liturgia.extrasLeituras;
+    final extrasOracoes = liturgia.oracoes.extras;
+
+    final LiturgicalRank rankDoDia = CalendarioLiturgicoTemplateData.obterRank(_selectedDate);
 
     final oracaoEucaristicaDoDia =
     OracaoEucaristicaTemplateData.obterOracaoOuPadrao(_selectedDate, padrao: "II");
@@ -685,18 +719,30 @@ class _HomePageState extends State<HomePage> {
                       initiallyExpanded: true,
                       onExpansionChanged: (v) => setState(() => _expandedRitosIniciais = v),
                       children: [
-                        _buildAntifonaSection("Antífona de Entrada", liturgia.antifonas.entrada),
-                        _buildRichTextSection("Acolhida", MissaFixa.saudacao),
-                        _buildRichTextSection("Ato Penitencial", MissaFixa.atoPenitencial),
+                        if (isVigiliaPascal) _buildRichTextSection("O Sentido da Vigília", MissaFixa.sentidoVigiliaPascal,),
+                        //Benção do Fogo
+                        if (isVigiliaPascal && extrasOracoes.isNotEmpty)
+                          _buildRichTextSection(
+                            extrasOracoes.first.titulo,
+                            extrasOracoes.first.texto,
+                          ),
+                        //Exulte - Proclamação da Páscoa
+                        if (isVigiliaPascal && extrasLeituras.isNotEmpty)
+                          _buildRichTextSection(
+                            extrasLeituras.first.titulo,
+                            _formatarExulte(extrasLeituras.first.texto),
+                          ),
+                        if (!isVigiliaPascal) _buildAntifonaSection("Antífona de Entrada", liturgia.antifonas.entrada),
+                        if (!isVigiliaPascal) _buildRichTextSection("Acolhida", MissaFixa.saudacao),
+                        if (!isVigiliaPascal) _buildRichTextSection("Ato Penitencial", MissaFixa.atoPenitencial),
                         if (OrdinarioRules.showGloria(rankDoDia) &&
                             !liturgia.cor.toLowerCase().trim().contains('roxo') &&
                             !liturgia.cor.toLowerCase().trim().contains('violeta') &&
                             !liturgia.cor.toLowerCase().trim().contains('rosa'))
                           _buildRichTextSection("Hino de Louvor", MissaFixa.gloria),
-                        _buildRichTextSection(
-                          "Oração da Coleta",
-                          "${liturgia.oracoes.coleta}\n**T: Amém!**",
-                        ),
+
+                        if (!isVigiliaPascal) _buildRichTextSection("Oração da Coleta","${liturgia.oracoes.coleta}\n**T: Amém!**",),
+
                       ],
                     ),
                   ),
@@ -710,10 +756,64 @@ class _HomePageState extends State<HomePage> {
                       initiallyExpanded: false,
                       onExpansionChanged: (v) => setState(() => _expandedLiturgiaPalavra = v),
                       children: [
-                        _buildLeituras(liturgia.primeiraLeitura, "I LEITURA", tipo: TipoLeitura.leitura),
-                        _buildLeituras(liturgia.salmo, "SALMO RESPONSORIAL", tipo: TipoLeitura.salmo),
-                        _buildLeituras(liturgia.segundaLeitura, "II LEITURA", tipo: TipoLeitura.leitura),
+                        if (isVigiliaPascal) _buildRichTextSection("",liturgia.oracoes.coleta.replaceFirst(
+                          "Não há Oração da Coleta. A Liturgia da Palavra inicia-se com estas palavras:\n",
+                          "",
+                        )),
+
+                        if (!isVigiliaPascal) ...[
+                          _buildLeituras(liturgia.primeiraLeitura, "I LEITURA", tipo: TipoLeitura.leitura),
+                          _buildLeituras(liturgia.salmo, "SALMO RESPONSORIAL", tipo: TipoLeitura.salmo),
+                          _buildLeituras(liturgia.segundaLeitura, "II LEITURA", tipo: TipoLeitura.leitura),
+                        ] else ...[
+                          _buildLeituras(liturgia.primeiraLeitura, "I LEITURA", tipo: TipoLeitura.leitura),
+                          if (liturgia.salmo.length > 0) _buildLeituras([liturgia.salmo[0]], "SALMO RESPONSORIAL", tipo: TipoLeitura.salmo),
+                          if (extrasOracoes.length > 1) _buildRichTextSection(extrasOracoes[1].titulo, extrasOracoes[1].texto,),
+                          const Divider(height: 30),
+                          _buildLeituras(liturgia.segundaLeitura, "II LEITURA", tipo: TipoLeitura.leitura),
+                          _buildRichTextSection("SALMO RESPONSORIAL", MissaFixa.salmoLeituraIIVigiliaPascal),
+                          const Divider(height: 30),
+                          if (extrasOracoes.length > 2) _buildRichTextSection(extrasOracoes[2].titulo, extrasOracoes[2].texto,),
+                          const Divider(height: 30),
+
+                          for (int i = 1; i < extrasLeituras.length - 1; i++) ...[
+                            _buildLeituras(
+                              [extrasLeituras[i]],
+                              "${_toRoman(i + 2)} LEITURA",
+                              tipo: TipoLeitura.leitura,
+                            ),
+
+                            if (liturgia.salmo.length > i - 1)
+                              _buildLeituras(
+                                [liturgia.salmo[i]],
+                                "SALMO RESPONSORIAL",
+                                tipo: TipoLeitura.salmo,
+                              ),
+
+                            if (extrasOracoes.length > i + 1)
+                              _buildRichTextSection(
+                                extrasOracoes[i + 2].titulo,
+                                extrasOracoes[i + 2].texto,
+                              ),
+                            const Divider(height: 30),
+                          ],
+
+                          _buildLeituras(
+                            [extrasLeituras.last],
+                            "EPÍSTOLA",
+                            tipo: TipoLeitura.leitura,
+                          ),
+
+                          //if (liturgia.salmo.length >= extrasLeituras.length - 1)
+                            _buildLeituras(
+                              [liturgia.salmo.last],
+                              "SALMO RESPONSORIAL",
+                              tipo: TipoLeitura.salmo,
+                            ),
+                        ],
+
                         _buildLeituras(liturgia.evangelho, "EVANGELHO", tipo: TipoLeitura.evangelho),
+
                         if (OrdinarioRules.showCredo(rankDoDia))
                           _buildRichTextSection("Profissão de Fé", MissaFixa.credo),
                         _buildPrecesDaAssembleia(colorLiturgico),

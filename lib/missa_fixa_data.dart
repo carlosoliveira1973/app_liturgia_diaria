@@ -115,4 +115,15 @@ Cordeiro de Deus, que tirais o pecado do mundo, dai-nos a paz.
 **T: Senhor, eu não sou digno(a) de que entreis em minha morada, mas dizei uma palavra e serei salvo(a).**
 """;
 
+  static const String sentidoVigiliaPascal = """
+Meus irmãos e minhas irmãs. Nesta noite santíssima, em que nosso Senhor Jesus Cristo passou da morte à vida, a Igreja convida os seus filhos dispersos por toda a terra a se reunirem em vigília e oração. Se comemorarmos a Páscoa do Senhor ouvindo sua palavra e celebrando seus mistérios, podemos ter a firme esperança de participar do seu triunfo sobre a morte e de sua vida em Deus.""";
+
+  static const String salmoLeituraIIVigiliaPascal =
+  """
+**R. Guardai-me, ó Deus, porque em vós me refugio!**
+
+— Ó Senhor, sois minha herança e minha taça, meu destino está seguro em vossas mãos! Tenho sempre o Senhor ante meus olhos, pois, se o tenho a meu lado, não vacilo.
+— Eis por que meu coração está em festa, † minha alma rejubila de alegria e até meu corpo no repouso está tranquilo; pois não haveis de me deixar entregue à morte nem vosso amigo conhecer a corrupção.
+— Vós me ensinais vosso caminho para a vida; † junto a vós, felicidade sem limites, delícia eterna e alegria ao vosso lado!""";
+
 }

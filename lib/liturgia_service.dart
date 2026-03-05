@@ -144,11 +144,13 @@ class LiturgiaService {
         coleta: aviso,
         oferendas: "",
         comunhao: "",
+        extras: [],
       ),
       primeiraLeitura: [],
       segundaLeitura: [],
       salmo: [],
       evangelho: [],
+      extrasLeituras: [],
     );
   }
 }
